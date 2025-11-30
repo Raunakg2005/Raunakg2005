@@ -1,0 +1,21 @@
+name: Generate Snake Animation
+
+on:
+  # Run automatically every 24 hours
+  schedule:
+    - cron: "0 */24 * * *"
+  
+  # Allows manual workflow run from Actions tab
+  workflow_dispatch:
+  
+  # Run on every push to main branch
+  push:
+    branches:
+    - main
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
