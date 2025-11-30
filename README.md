@@ -131,7 +131,7 @@ A blockchain-integrated ride-sharing application with Web3 capabilities for secu
 
 <div align="center">
 
-![snake gif](https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/output/github-contribution-grid-snake-dark.svg)
+![snake gif](https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/output/github-contribution-grid-snake.svg)
 
 </div>
 
