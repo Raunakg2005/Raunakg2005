@@ -11,7 +11,7 @@ import pathlib
 
 OUT_DIR = pathlib.Path(__file__).resolve().parent.parent / "assets" / "sections"
 
-W, H = 860, 66
+W, H = 860, 78
 
 # slug, title, kicker, accent, glyph geometry (drawn inside a 0..24 box)
 SECTIONS = [
@@ -108,9 +108,9 @@ def build(slug: str, title: str, kicker: str, accent: str, glyph: str) -> str:
     </filter>
     <style>
       .t-{slug} {{ font-family:"Segoe UI",Inter,Helvetica,Arial,sans-serif;
-                   font-size:23px; font-weight:800; fill:#ffffff; letter-spacing:-0.2px; }}
+                   font-size:27px; font-weight:800; fill:#ffffff; letter-spacing:-0.2px; }}
       .k-{slug} {{ font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace;
-                   font-size:9.5px; font-weight:600; fill:{accent};
+                   font-size:11px; font-weight:600; fill:{accent};
                    fill-opacity:0.75; letter-spacing:2px; }}
     </style>
   </defs>
@@ -118,19 +118,19 @@ def build(slug: str, title: str, kicker: str, accent: str, glyph: str) -> str:
   <rect x="0" y="0" width="{W}" height="{H}" rx="12" fill="url(#bg-{slug})"/>
 
   <!-- accent badge + vector glyph -->
-  <rect x="14" y="16" width="34" height="34" rx="10" fill="url(#badge-{slug})"
+  <rect x="14" y="19" width="40" height="40" rx="11" fill="url(#badge-{slug})"
         stroke="{accent}" stroke-opacity="0.45"/>
-  <g transform="translate(19 21) scale(1)" color="{accent}" opacity="0.95">
-    <g transform="scale(1)">{glyph}</g>
+  <g transform="translate(22 27) scale(1.12)" color="{accent}" opacity="0.95">
+    <g>{glyph}</g>
   </g>
 
-  <text x="62" y="31" class="t-{slug}">{title}</text>
-  <text x="63" y="47" class="k-{slug}">{kicker}</text>
+  <text x="70" y="36" class="t-{slug}">{title}</text>
+  <text x="71" y="55" class="k-{slug}">{kicker}</text>
 
   <!-- trailing rule with a travelling highlight -->
-  <rect x="62" y="55" width="{W - 100}" height="2" rx="1" fill="url(#rule-{slug})" opacity="0.5"/>
-  <rect y="55" width="90" height="2" rx="1" fill="{accent}" filter="url(#soft-{slug})">
-    <animate attributeName="x" values="62;{W - 190};62" dur="7s"
+  <rect x="70" y="66" width="{W - 108}" height="2" rx="1" fill="url(#rule-{slug})" opacity="0.5"/>
+  <rect y="66" width="90" height="2" rx="1" fill="{accent}" filter="url(#soft-{slug})">
+    <animate attributeName="x" values="70;{W - 190};70" dur="7s"
              keyTimes="0;0.5;1" calcMode="spline"
              keySplines="0.45 0 0.55 1;0.45 0 0.55 1" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.15;0.75;0.15" dur="7s" repeatCount="indefinite"/>
