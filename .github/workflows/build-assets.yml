@@ -1,0 +1,50 @@
+name: Rebuild README assets
+
+# Regenerates the avatar-scan banner and the language-mix card from the live
+# GitHub API. Self-hosting these means no shared third-party instance can
+# rate-limit the profile into "Something went wrong!" again.
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/build-assets.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build avatar scan banner
+        run: python scripts/build_avatar_scan.py
+
+      - name: Build language mix card
+        run: python scripts/build_lang_stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit refreshed assets
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          if git diff --staged --quiet; then
+            echo "assets unchanged"
+          else
+            git commit -m "Refresh README assets"
+            git push
+          fi
