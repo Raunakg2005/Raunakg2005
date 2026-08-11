@@ -28,11 +28,11 @@
   <text x="22" y="34" class="ttl">◈ Language Mix</text>
   <text x="22" y="56" class="pc">across 54 public repositories</text>
 
-    <rect x="22.0" y="74" width="406.5" height="16" rx="4" fill="#F34B7D">
+    <rect x="22.0" y="74" width="406.4" height="16" rx="4" fill="#F34B7D">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.00s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.00s" fill="freeze"/>
     </rect>
-    <rect x="428.5" y="74" width="60.6" height="16" fill="#555555">
+    <rect x="428.4" y="74" width="60.6" height="16" fill="#555555">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.07s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.07s" fill="freeze"/>
     </rect>
