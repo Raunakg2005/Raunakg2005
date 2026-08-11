@@ -84,7 +84,7 @@ const raunak = {
 
 **App · Mobile · XR**
 
-<img src="https://skillicons.dev/icons?i=flutter,swift,kotlin,androidstudio,xcode,unity,blender&theme=dark" alt="app and xr" />
+<img src="https://skillicons.dev/icons?i=flutter,swift,kotlin,androidstudio,unity,blender,threejs&theme=dark" alt="app and xr" />
 
 **Backend**
 
@@ -400,12 +400,12 @@ Drug-awareness platform with a Gemini-powered chatbot, forum, and auth.
 
 <div align="center">
 
-<img height="300" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/lang-stats.svg" alt="Language mix across all public repositories" />
-<img height="300" src="https://streak-stats.demolab.com?user=Raunakg2005&theme=tokyonight&hide_border=true&border_radius=12&date_format=M%20j%5B%2C%20Y%5D" alt="Contribution streak" />
+<img height="290" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/lang-stats.svg" alt="Language mix across all public repositories" />
+<img height="290" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/streak.svg" alt="Contribution streak" />
 
 </div>
 
-> The language card is generated from the GitHub API by [a workflow in this repo](.github/workflows/build-assets.yml) and committed as a static SVG — so it never depends on a shared third-party instance that can run out of API quota.
+> Both cards are generated straight from the GitHub API by [a workflow in this repo](.github/workflows/build-assets.yml) and committed as static SVGs — no shared third-party instance to run out of API quota, and nothing for GitHub's image proxy to time out on.
 
 <details open>
 <summary><b>📈 Contribution activity</b></summary>

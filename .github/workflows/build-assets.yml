@@ -37,6 +37,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Build contribution streak card
+        run: python scripts/build_streak.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit refreshed assets
         run: |
           git config user.name  "github-actions[bot]"
