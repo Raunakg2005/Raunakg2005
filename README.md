@@ -39,9 +39,8 @@ const raunak = {
   role:        "Quantum Computing Engineer & Full Stack Developer",
   location:    "Mumbai, India 🇮🇳",
   shipping:    ["Quantum debugging tooling", "QKD-secured apps", "AI crime analytics"],
-  writing:     "Quantum computing research papers",
   stack:       ["TypeScript", "Python", "Qiskit", "Next.js", "Solidity", "Flutter"],
-  philosophy:  "Build it, run it, measure it — then write the paper.",
+  philosophy:  "Build it, run it, measure it — then ship it.",
   openTo:      ["Quantum research collabs", "OSS", "Hard problems"],
 } as const;
 ```
@@ -53,7 +52,7 @@ const raunak = {
 
 |  | |
 |---|---|
-| ⚛️ | **Quantum is my main line of work**, not a side interest — I build debugging tooling, QKD protocol implementations, and circuit-simulation platforms, and I write research on them. |
+| ⚛️ | **Quantum is my main line of work**, not a side interest — I build debugging tooling, QKD protocol implementations, and circuit-simulation platforms. |
 | 🤖 | I build **AI/ML systems that get deployed** — geospatial crime analytics, NLP pipelines, and LLM-backed products. |
 | ⛓️ | I write **Solidity smart contracts** and ship DApps with real Web3 integration. |
 | 🧩 | Full stack across **Next.js, FastAPI, Flutter, SwiftUI** — web, mobile, and everything wiring them together. |
@@ -76,19 +75,17 @@ flowchart LR
     A["⚛️ Quantum Work"] --> B["🐛 Debugging &<br/>Simulation"]
     A --> C["🔐 Quantum<br/>Cryptography"]
     A --> D["🎛️ Circuit<br/>Tooling"]
-    A --> E["📄 Research<br/>Writing"]
 
     B --> B1["quantum-debugger<br/>⭐ 20 · Python · live"]
     C --> C1["quantum-crypto-chat-BB84<br/>⭐ 6 · TypeScript · live"]
     D --> D1["qubit-pilot<br/>TypeScript · live"]
-    E --> E1["Papers on quantum<br/>tooling & protocols"]
 
     classDef root fill:#6929C4,stroke:#B191FF,stroke-width:2px,color:#fff
     classDef mid  fill:#1F6FEB,stroke:#79C0FF,stroke-width:1.5px,color:#fff
     classDef leaf fill:#0d1117,stroke:#00D4AA,stroke-width:1.5px,color:#7ee7c7
     class A root
-    class B,C,D,E mid
-    class B1,C1,D1,E1 leaf
+    class B,C,D mid
+    class B1,C1,D1 leaf
 ```
 
 <div align="center">
