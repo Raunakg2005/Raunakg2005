@@ -63,6 +63,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Build about list and XR index cards
+        run: python scripts/build_extra_cards.py
+
       - name: Commit refreshed assets
         run: |
           git config user.name  "github-actions[bot]"

@@ -46,17 +46,7 @@
 
 <br/>
 
-|  | |
-|---|---|
-| 🧩 | **Full stack, genuinely end to end** — Next.js and React on the front, Node/FastAPI/Laravel behind it, Postgres or Mongo underneath, Dockerised and deployed. |
-| 📱 | **App developer** across **Flutter, SwiftUI, and Kotlin** — native iOS, native Android, and cross-platform, shipped to real devices. |
-| ⚛️ | **Quantum is shipped work, not a hobby** — debugging tooling, QKD protocol implementations, and circuit simulators that are live on the web right now. |
-| 🤖 | **AI/ML that gets deployed** — geospatial crime analytics, NLP pipelines, fraud detection, and LLM-backed products. |
-| ⛓️ | **Solidity smart contracts** and DApps with real Web3 integration. |
-| 🎮 | **AR / VR / game dev in Unity** — C#, custom HLSL and ShaderLab shaders, and a handful of VR builds. |
-| ⚙️ | **DevOps &amp; MLOps** — Dockerised services, Jenkins and GitHub Actions pipelines, Kubernetes, and ML that gets versioned, tracked and served rather than left in a notebook. |
-| 🎯 | I care about the boring parts: tests, CI, monitoring, and code someone else can read. |
-| 📫 | Open to collaboration — **[raunakg2005@gmail.com](mailto:raunakg2005@gmail.com)** |
+<img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/about-list.svg" alt="Full stack end to end · App developer in Flutter, SwiftUI and Kotlin · Quantum shipped, not a hobby · AI/ML deployed · Solidity and DApps · AR/VR in Unity · DevOps and MLOps · tests, CI and monitoring. Open to collaboration at raunakg2005@gmail.com" />
 
 </details>
 
@@ -250,14 +240,7 @@ flowchart LR
 
 <br/>
 
-| Project | What it is | Stack |
-|---|---|---|
-| 🎮 **[Block Blast](https://github.com/Raunakg2005/Block-Blast)** | Puzzle game build | `TypeScript` |
-| 🥁 **[VR Beat Box](https://github.com/Raunakg2005/VR-beat-box)** | Rhythm experience in VR | `C++` `Unity` |
-| 🔢 **[2048 iOS](https://github.com/Raunakg2005/2048-ios-game)** | Native iOS take on 2048 | `Swift` |
-| 🔊 **[echoscape](https://github.com/Raunakg2005/echoscape.swiftpm)** | Swift Playgrounds audio app | `Swift` |
-| 📷 **[AtomicQR (iOS + Android)](https://github.com/Raunakg2005/AtomicQR-IOS-Compound)** | AR chemistry QR compound viewer | `C#` `Unity` |
-| 📅 **[Faculty Timetable](https://github.com/Raunakg2005/Faculty_Timetable_Build)** | Timetable builder app | `Dart` `Flutter` |
+<a href="https://github.com/Raunakg2005?tab=repositories"><img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/xr-index.svg" alt="More app and XR builds: Block Blast, VR Beat Box, 2048 iOS, echoscape, AtomicQR, Faculty Timetable" /></a>
 
 </details>
 

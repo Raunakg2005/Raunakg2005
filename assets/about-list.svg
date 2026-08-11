@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 580" width="860" height="580"
+     role="img" aria-label="about-list">
+  <defs>
+    <linearGradient id="bgabout-list" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b28"/>
+    </linearGradient>
+    <linearGradient id="acabout-list" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6929C4"/><stop offset="50%" stop-color="#1F6FEB"/>
+      <stop offset="100%" stop-color="#00D4AA"/>
+    </linearGradient>
+  </defs>
+  <rect width="860" height="580" rx="13" fill="url(#bgabout-list)"/>
+  <rect x="1" y="1" width="858" height="578" rx="12" fill="none"
+        stroke="url(#acabout-list)" stroke-opacity="0.4" stroke-width="2"/>
+  <text x="26" y="36" style="font:700 16px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#7EE7C7">◈ A bit more</text><text x="834" y="36" text-anchor="end" style="font:600 10px 'JetBrains Mono','SFMono-Regular',Consolas,monospace;fill:#6E7A91;letter-spacing:1.6px">WHAT I ACTUALLY DO</text><line x1="26" y1="46" x2="834" y2="46" stroke="#30363D"/>
+  <rect x="16" y="42" width="828" height="66" rx="8" fill="#ffffff" fill-opacity="0.028"/><rect x="26" y="48" width="3" height="50" rx="1.5" fill="#79C0FF"/><circle cx="27.5" cy="57" r="4.5" fill="#79C0FF"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="0.00s" repeatCount="indefinite"/></circle><text x="46" y="62" style="font:700 14px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#ffffff">Full stack, genuinely end to end</text>
+  <text x="46" y="84" style="font:400 12.5px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#8B949E">Next.js and React on the front, Node/FastAPI/Laravel behind it, Postgres or Mongo underneath, Dockerised and</text>
+  <text x="46" y="101" style="font:400 12.5px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#8B949E">deployed.</text>
+  <rect x="16" y="114" width="828" height="49" rx="8" fill="#ffffff" fill-opacity="0.008"/><rect x="26" y="120" width="3" height="33" rx="1.5" fill="#7EE7C7"/><circle cx="27.5" cy="129" r="4.5" fill="#7EE7C7"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="0.25s" repeatCount="indefinite"/></circle><text x="46" y="134" style="font:700 14px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#ffffff">App developer across Flutter, SwiftUI and Kotlin</text>
+  <text x="46" y="156" style="font:400 12.5px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#8B949E">Native iOS, native Android and cross-platform — shipped to real devices.</text>
+  <rect x="16" y="169" width="828" height="49" rx="8" fill="#ffffff" fill-opacity="0.028"/><rect x="26" y="175" width="3" height="33" rx="1.5" fill="#B191FF"/><circle cx="27.5" cy="184" r="4.5" fill="#B191FF"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="0.50s" repeatCount="indefinite"/></circle><text x="46" y="189" style="font:700 14px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#ffffff">Quantum is shipped work, not a hobby</text>
+  <text x="46" y="211" style="font:400 12.5px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#8B949E">Debugging tooling, QKD protocol implementations and circuit simulators that are live on the web right now.</text>
+  <rect x="16" y="224" width="828" height="49" rx="8" fill="#ffffff" fill-opacity="0.008"/><rect x="26" y="230" width="3" height="33" rx="1.5" fill="#FF7B72"/><circle cx="27.5" cy="239" r="4.5" fill="#FF7B72"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="0.75s" repeatCount="indefinite"/></circle><text x="46" y="244" style="font:700 14px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#ffffff">AI/ML that gets deployed</text>
+  <text x="46" y="266" style="font:400 12.5px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#8B949E">Geospatial crime analytics, NLP pipelines, fraud detection and LLM-backed products.</text>
+  <rect x="16" y="279" width="828" height="49" rx="8" fill="#ffffff" fill-opacity="0.028"/><rect x="26" y="285" width="3" height="33" rx="1.5" fill="#F0A868"/><circle cx="27.5" cy="294" r="4.5" fill="#F0A868"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="1.00s" repeatCount="indefinite"/></circle><text x="46" y="299" style="font:700 14px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#ffffff">Solidity smart contracts and DApps</text>
+  <text x="46" y="321" style="font:400 12.5px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#8B949E">Real Web3 integration, not a wrapper around someone else&#x27;s contract.</text>
+  <rect x="16" y="334" width="828" height="49" rx="8" fill="#ffffff" fill-opacity="0.008"/><rect x="26" y="340" width="3" height="33" rx="1.5" fill="#F0A868"/><circle cx="27.5" cy="349" r="4.5" fill="#F0A868"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="1.25s" repeatCount="indefinite"/></circle><text x="46" y="354" style="font:700 14px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#ffffff">AR / VR / game dev in Unity</text>
+  <text x="46" y="376" style="font:400 12.5px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#8B949E">C#, custom HLSL and ShaderLab shaders, and a handful of shipped VR builds.</text>
+  <rect x="16" y="389" width="828" height="66" rx="8" fill="#ffffff" fill-opacity="0.028"/><rect x="26" y="395" width="3" height="50" rx="1.5" fill="#A5D6FF"/><circle cx="27.5" cy="404" r="4.5" fill="#A5D6FF"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="1.50s" repeatCount="indefinite"/></circle><text x="46" y="409" style="font:700 14px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#ffffff">DevOps &amp; MLOps</text>
+  <text x="46" y="431" style="font:400 12.5px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#8B949E">Dockerised services, Jenkins and GitHub Actions pipelines, Kubernetes, and ML that gets versioned, tracked and</text>
+  <text x="46" y="448" style="font:400 12.5px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#8B949E">served rather than left in a notebook.</text>
+  <rect x="16" y="461" width="828" height="49" rx="8" fill="#ffffff" fill-opacity="0.008"/><rect x="26" y="467" width="3" height="33" rx="1.5" fill="#7EE7C7"/><circle cx="27.5" cy="476" r="4.5" fill="#7EE7C7"><animate attributeName="opacity" values="0.35;1;0.35" dur="3s" begin="1.75s" repeatCount="indefinite"/></circle><text x="46" y="481" style="font:700 14px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#ffffff">The boring parts matter</text>
+  <text x="46" y="503" style="font:400 12.5px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#8B949E">Tests, CI, monitoring, and code the next person can actually read.</text>
+  <line x1="26" y1="538" x2="834" y2="538" stroke="#30363D"/><text x="26" y="562" style="font:600 12.5px 'JetBrains Mono','SFMono-Regular',Consolas,monospace;fill:#7EE7C7">✉ raunakg2005@gmail.com</text><text x="834" y="562" text-anchor="end" style="font:400 11.5px 'Segoe UI',Inter,Helvetica,Arial,sans-serif;fill:#8B949E">Open to collaboration</text>
+</svg>
