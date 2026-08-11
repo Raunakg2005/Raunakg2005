@@ -9,58 +9,16 @@ rate-limit us.
 """
 
 import collections
-import http.client
-import json
-import os
 import pathlib
-import time
 import urllib.error
-import urllib.request
 
-USER = "Raunakg2005"
+import gh
+
 OUT = pathlib.Path(__file__).resolve().parent.parent / "assets" / "lang-stats.svg"
 TOP_N = 8
 
-# Language -> brand colour, matching GitHub's linguist palette.
-COLOURS = {
-    "TypeScript": "#3178C6", "JavaScript": "#F1E05A", "Python": "#3572A5",
-    "CSS": "#563D7C", "HTML": "#E34C26", "C#": "#178600", "Swift": "#F05138",
-    "Dart": "#00B4AB", "C++": "#F34B7D", "C": "#555555", "Java": "#B07219",
-    "Kotlin": "#A97BFF", "PHP": "#4F5D95", "Solidity": "#AA6746",
-    "ShaderLab": "#222C37", "HLSL": "#AACE60", "Jupyter Notebook": "#DA5B0B",
-    "Dockerfile": "#384D54", "Shell": "#89E051", "Mathematica": "#DD1100",
-    "Objective-C": "#438EFF", "Jac": "#8A3FFC", "TeX": "#3D6117",
-    "PowerShell": "#012456", "CMake": "#DA3434", "Hack": "#878787",
-    "Batchfile": "#C1F12E", "Wolfram Language": "#DD1100", "Mako": "#7E858D",
-    "Procfile": "#6E7681",
-}
-FALLBACK = "#8B949E"
 
 
-def api(path: str, attempts: int = 4):
-    req = urllib.request.Request(
-        f"https://api.github.com/{path}",
-        headers={
-            "Accept": "application/vnd.github+json",
-            "User-Agent": "readme-builder",
-        },
-    )
-    token = os.environ.get("GITHUB_TOKEN")
-    if token:
-        req.add_header("Authorization", f"Bearer {token}")
-
-    for attempt in range(attempts):
-        try:
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                return json.loads(resp.read())
-        except urllib.error.HTTPError:
-            raise  # a real API answer (404 on an empty repo) — let the caller decide
-        except (urllib.error.URLError, http.client.HTTPException, OSError):
-            # The API drops connections occasionally; retry rather than fail
-            # the whole card and leave a stale SVG committed.
-            if attempt == attempts - 1:
-                raise
-            time.sleep(2 * (attempt + 1))
 
 
 def collect() -> tuple[collections.Counter, int, int]:
@@ -74,7 +32,7 @@ def collect() -> tuple[collections.Counter, int, int]:
     totals: collections.Counter = collections.Counter()
     repos, stars, page = 0, 0, 1
     while True:
-        batch = api(f"users/{USER}/repos?per_page=100&page={page}&type=owner")
+        batch = gh.api(f"users/{gh.USER}/repos?per_page=100&page={page}&type=owner")
         if not batch:
             break
         for repo in batch:
@@ -83,7 +41,7 @@ def collect() -> tuple[collections.Counter, int, int]:
             repos += 1
             stars += repo.get("stargazers_count", 0)
             try:
-                langs = api(f"repos/{USER}/{repo['name']}/languages")
+                langs = gh.api(f"repos/{gh.USER}/{repo['name']}/languages")
             except urllib.error.HTTPError:
                 continue  # empty or inaccessible repo — just skip it
             repo_bytes = sum(langs.values())
@@ -108,7 +66,7 @@ def build(totals: collections.Counter, repos: int, stars: int) -> str:
     width = 476.0
     for i, (name, pct) in enumerate(rows):
         w = max(width * pct / 100, 1.5)
-        colour = COLOURS.get(name, FALLBACK)
+        colour = gh.lang_colour(name)
         radius = ' rx="4"' if i in (0, len(rows) - 1) else ""
         bar.append(
             f'    <rect x="{x:.1f}" y="74" width="{w:.1f}" height="16"{radius} fill="{colour}">\n'
@@ -126,7 +84,7 @@ def build(totals: collections.Counter, repos: int, stars: int) -> str:
         col, row = i % 2, i // 2
         lx = 22 + col * 250
         ly = 124 + row * 26
-        colour = COLOURS.get(name, FALLBACK)
+        colour = gh.lang_colour(name)
         label = name if len(name) <= 16 else name[:15] + "…"
         legend.append(
             f'    <g opacity="0">\n'

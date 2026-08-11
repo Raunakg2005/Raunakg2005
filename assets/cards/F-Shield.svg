@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 208" width="424" height="208"
+     role="img" aria-label="F-Shield — TypeScript project">
+  <title>F-Shield</title>
+  <defs>
+    <linearGradient id="bg-F-Shield" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b28"/>
+    </linearGradient>
+    <linearGradient id="top-F-Shield" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3178C6"/>
+      <stop offset="100%" stop-color="#3178C6" stop-opacity="0.05"/>
+    </linearGradient>
+    <style>
+      .t-F-Shield { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:17px;
+                   font-weight:700; fill:#ffffff; }
+      .g-F-Shield { font-family:"JetBrains Mono",Consolas,monospace; font-size:10.5px;
+                   fill:#3178C6; letter-spacing:0.6px; }
+      .d-F-Shield { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:12.5px;
+                   fill:#8B949E; }
+      .c-F-Shield { font-family:"JetBrains Mono",Consolas,monospace; font-size:10px;
+                   font-weight:600; fill:#3178C6; }
+      .s-F-Shield { font-family:"JetBrains Mono",Consolas,monospace; font-size:12.5px;
+                   font-weight:700; fill:#F0A868; }
+      .l-F-Shield { font-family:"JetBrains Mono",Consolas,monospace; font-size:9.5px;
+                   font-weight:700; fill:#7EE7C7; letter-spacing:1.2px; }
+    </style>
+  </defs>
+
+  <rect width="424" height="208" rx="14" fill="url(#bg-F-Shield)"/>
+  <rect x="1" y="1" width="422" height="206" rx="13" fill="none"
+        stroke="#30363D" stroke-width="2"/>
+  <path d="M14 1h396a13 13 0 0 1 13 13v2H1v-2a13 13 0 0 1 13-13z" fill="url(#top-F-Shield)"/>
+
+  <text x="26" y="46" class="t-F-Shield">F-Shield</text>
+  <circle cx="31" cy="66" r="5" fill="#3178C6"/>
+  <text x="43" y="70" class="g-F-Shield">TypeScript</text>
+
+
+    <text x="26" y="112" class="d-F-Shield">Fraud and threat detection platform with a live analyst</text>
+    <text x="26" y="130" class="d-F-Shield">dashboard.</text>
+
+    <rect x="26" y="166" width="73" height="22" rx="11" fill="#3178C6" fill-opacity="0.12" stroke="#3178C6" stroke-opacity="0.45"/>
+    <text x="62" y="181" class="c-F-Shield" text-anchor="middle">Security</text>
+    <rect x="106.8" y="166" width="79" height="22" rx="11" fill="#3178C6" fill-opacity="0.12" stroke="#3178C6" stroke-opacity="0.45"/>
+    <text x="146" y="181" class="c-F-Shield" text-anchor="middle">Dashboard</text>
+  <circle cx="394" cy="177" r="4" fill="#7EE7C7">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="384" y="181" class="l-F-Shield" text-anchor="end">LIVE</text>
+</svg>

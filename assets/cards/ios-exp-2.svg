@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 208" width="424" height="208"
+     role="img" aria-label="Campus Connect — Swift project">
+  <title>Campus Connect</title>
+  <defs>
+    <linearGradient id="bg-ios-exp-2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b28"/>
+    </linearGradient>
+    <linearGradient id="top-ios-exp-2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F05138"/>
+      <stop offset="100%" stop-color="#F05138" stop-opacity="0.05"/>
+    </linearGradient>
+    <style>
+      .t-ios-exp-2 { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:17px;
+                   font-weight:700; fill:#ffffff; }
+      .g-ios-exp-2 { font-family:"JetBrains Mono",Consolas,monospace; font-size:10.5px;
+                   fill:#F05138; letter-spacing:0.6px; }
+      .d-ios-exp-2 { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:12.5px;
+                   fill:#8B949E; }
+      .c-ios-exp-2 { font-family:"JetBrains Mono",Consolas,monospace; font-size:10px;
+                   font-weight:600; fill:#F05138; }
+      .s-ios-exp-2 { font-family:"JetBrains Mono",Consolas,monospace; font-size:12.5px;
+                   font-weight:700; fill:#F0A868; }
+      .l-ios-exp-2 { font-family:"JetBrains Mono",Consolas,monospace; font-size:9.5px;
+                   font-weight:700; fill:#7EE7C7; letter-spacing:1.2px; }
+    </style>
+  </defs>
+
+  <rect width="424" height="208" rx="14" fill="url(#bg-ios-exp-2)"/>
+  <rect x="1" y="1" width="422" height="206" rx="13" fill="none"
+        stroke="#30363D" stroke-width="2"/>
+  <path d="M14 1h396a13 13 0 0 1 13 13v2H1v-2a13 13 0 0 1 13-13z" fill="url(#top-ios-exp-2)"/>
+
+  <text x="26" y="46" class="t-ios-exp-2">Campus Connect</text>
+  <circle cx="31" cy="66" r="5" fill="#F05138"/>
+  <text x="43" y="70" class="g-ios-exp-2">Swift</text>
+
+
+    <text x="26" y="112" class="d-ios-exp-2">Native SwiftUI college companion app — a full iOS build,</text>
+    <text x="26" y="130" class="d-ios-exp-2">not a web wrapper.</text>
+
+    <rect x="26" y="166" width="66" height="22" rx="11" fill="#F05138" fill-opacity="0.12" stroke="#F05138" stroke-opacity="0.45"/>
+    <text x="59" y="181" class="c-ios-exp-2" text-anchor="middle">SwiftUI</text>
+    <rect x="100.19999999999999" y="166" width="40" height="22" rx="11" fill="#F05138" fill-opacity="0.12" stroke="#F05138" stroke-opacity="0.45"/>
+    <text x="120" y="181" class="c-ios-exp-2" text-anchor="middle">iOS</text>
+
+</svg>

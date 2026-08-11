@@ -45,6 +45,24 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Build contribution calendar
+        run: python scripts/build_contrib_graph.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build about-me code card
+        run: python scripts/build_code_card.py
+
+      - name: Build project cards
+        run: python scripts/build_project_cards.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build project index table
+        run: python scripts/build_index_table.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Commit refreshed assets
         run: |
           git config user.name  "github-actions[bot]"

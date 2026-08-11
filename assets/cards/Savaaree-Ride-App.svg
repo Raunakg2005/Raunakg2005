@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 208" width="424" height="208"
+     role="img" aria-label="Savaaree — JavaScript project">
+  <title>Savaaree</title>
+  <defs>
+    <linearGradient id="bg-Savaaree-Ride-App" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b28"/>
+    </linearGradient>
+    <linearGradient id="top-Savaaree-Ride-App" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F1E05A"/>
+      <stop offset="100%" stop-color="#F1E05A" stop-opacity="0.05"/>
+    </linearGradient>
+    <style>
+      .t-Savaaree-Ride-App { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:17px;
+                   font-weight:700; fill:#ffffff; }
+      .g-Savaaree-Ride-App { font-family:"JetBrains Mono",Consolas,monospace; font-size:10.5px;
+                   fill:#F1E05A; letter-spacing:0.6px; }
+      .d-Savaaree-Ride-App { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:12.5px;
+                   fill:#8B949E; }
+      .c-Savaaree-Ride-App { font-family:"JetBrains Mono",Consolas,monospace; font-size:10px;
+                   font-weight:600; fill:#F1E05A; }
+      .s-Savaaree-Ride-App { font-family:"JetBrains Mono",Consolas,monospace; font-size:12.5px;
+                   font-weight:700; fill:#F0A868; }
+      .l-Savaaree-Ride-App { font-family:"JetBrains Mono",Consolas,monospace; font-size:9.5px;
+                   font-weight:700; fill:#7EE7C7; letter-spacing:1.2px; }
+    </style>
+  </defs>
+
+  <rect width="424" height="208" rx="14" fill="url(#bg-Savaaree-Ride-App)"/>
+  <rect x="1" y="1" width="422" height="206" rx="13" fill="none"
+        stroke="#30363D" stroke-width="2"/>
+  <path d="M14 1h396a13 13 0 0 1 13 13v2H1v-2a13 13 0 0 1 13-13z" fill="url(#top-Savaaree-Ride-App)"/>
+
+  <text x="26" y="46" class="t-Savaaree-Ride-App">Savaaree</text>
+  <circle cx="31" cy="66" r="5" fill="#F1E05A"/>
+  <text x="43" y="70" class="g-Savaaree-Ride-App">JavaScript</text>
+
+
+    <text x="26" y="112" class="d-Savaaree-Ride-App">Blockchain ride-sharing DApp — smart-contract settlement</text>
+    <text x="26" y="130" class="d-Savaaree-Ride-App">and real-time ride matching.</text>
+
+    <rect x="26" y="166" width="73" height="22" rx="11" fill="#F1E05A" fill-opacity="0.12" stroke="#F1E05A" stroke-opacity="0.45"/>
+    <text x="62" y="181" class="c-Savaaree-Ride-App" text-anchor="middle">Solidity</text>
+    <rect x="106.8" y="166" width="46" height="22" rx="11" fill="#F1E05A" fill-opacity="0.12" stroke="#F1E05A" stroke-opacity="0.45"/>
+    <text x="130" y="181" class="c-Savaaree-Ride-App" text-anchor="middle">Web3</text>
+
+</svg>

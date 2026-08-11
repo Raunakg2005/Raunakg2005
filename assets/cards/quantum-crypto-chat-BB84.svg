@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 208" width="424" height="208"
+     role="img" aria-label="quantum-crypto-chat — TypeScript project">
+  <title>quantum-crypto-chat</title>
+  <defs>
+    <linearGradient id="bg-quantum-crypto-chat-BB84" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b28"/>
+    </linearGradient>
+    <linearGradient id="top-quantum-crypto-chat-BB84" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3178C6"/>
+      <stop offset="100%" stop-color="#3178C6" stop-opacity="0.05"/>
+    </linearGradient>
+    <style>
+      .t-quantum-crypto-chat-BB84 { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:17px;
+                   font-weight:700; fill:#ffffff; }
+      .g-quantum-crypto-chat-BB84 { font-family:"JetBrains Mono",Consolas,monospace; font-size:10.5px;
+                   fill:#3178C6; letter-spacing:0.6px; }
+      .d-quantum-crypto-chat-BB84 { font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:12.5px;
+                   fill:#8B949E; }
+      .c-quantum-crypto-chat-BB84 { font-family:"JetBrains Mono",Consolas,monospace; font-size:10px;
+                   font-weight:600; fill:#3178C6; }
+      .s-quantum-crypto-chat-BB84 { font-family:"JetBrains Mono",Consolas,monospace; font-size:12.5px;
+                   font-weight:700; fill:#F0A868; }
+      .l-quantum-crypto-chat-BB84 { font-family:"JetBrains Mono",Consolas,monospace; font-size:9.5px;
+                   font-weight:700; fill:#7EE7C7; letter-spacing:1.2px; }
+    </style>
+  </defs>
+
+  <rect width="424" height="208" rx="14" fill="url(#bg-quantum-crypto-chat-BB84)"/>
+  <rect x="1" y="1" width="422" height="206" rx="13" fill="none"
+        stroke="#30363D" stroke-width="2"/>
+  <path d="M14 1h396a13 13 0 0 1 13 13v2H1v-2a13 13 0 0 1 13-13z" fill="url(#top-quantum-crypto-chat-BB84)"/>
+
+  <text x="26" y="46" class="t-quantum-crypto-chat-BB84">quantum-crypto-chat</text>
+  <circle cx="31" cy="66" r="5" fill="#3178C6"/>
+  <text x="43" y="70" class="g-quantum-crypto-chat-BB84">TypeScript</text>
+  <path d="M350 30 l3.2 6.6 7.2 1-5.2 5.1 1.2 7.2-6.4-3.4-6.4 3.4 1.2-7.2-5.2-5.1 7.2-1z" fill="#F0A868" opacity="0.95"/>
+  <text x="398" y="42" class="s-quantum-crypto-chat-BB84" text-anchor="end">6</text>
+
+    <text x="26" y="112" class="d-quantum-crypto-chat-BB84">Chat secured by the BB84 quantum key distribution</text>
+    <text x="26" y="130" class="d-quantum-crypto-chat-BB84">protocol — key exchange, eavesdropper detection and</text>
+    <text x="26" y="148" class="d-quantum-crypto-chat-BB84">real-time encrypted messaging.</text>
+
+    <rect x="26" y="166" width="66" height="22" rx="11" fill="#3178C6" fill-opacity="0.12" stroke="#3178C6" stroke-opacity="0.45"/>
+    <text x="59" y="181" class="c-quantum-crypto-chat-BB84" text-anchor="middle">Next.js</text>
+    <rect x="100.19999999999999" y="166" width="40" height="22" rx="11" fill="#3178C6" fill-opacity="0.12" stroke="#3178C6" stroke-opacity="0.45"/>
+    <text x="120" y="181" class="c-quantum-crypto-chat-BB84" text-anchor="middle">QKD</text>
+  <circle cx="394" cy="177" r="4" fill="#7EE7C7">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="384" y="181" class="l-quantum-crypto-chat-BB84" text-anchor="end">LIVE</text>
+</svg>

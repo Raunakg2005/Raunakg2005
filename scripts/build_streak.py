@@ -8,12 +8,10 @@ calendar and commits a static SVG instead.
 """
 
 import datetime as dt
-import json
-import os
 import pathlib
-import urllib.request
 
-USER = "Raunakg2005"
+import gh
+
 OUT = pathlib.Path(__file__).resolve().parent.parent / "assets" / "streak.svg"
 
 QUERY = """
@@ -32,24 +30,7 @@ query($login:String!, $from:DateTime!, $to:DateTime!) {
 
 
 def graphql(variables: dict) -> dict:
-    token = os.environ.get("GITHUB_TOKEN")
-    if not token:
-        raise SystemExit("GITHUB_TOKEN is required for the GraphQL contributions API")
-    body = json.dumps({"query": QUERY, "variables": variables}).encode()
-    req = urllib.request.Request(
-        "https://api.github.com/graphql",
-        data=body,
-        headers={
-            "Authorization": f"Bearer {token}",
-            "Content-Type": "application/json",
-            "User-Agent": "readme-builder",
-        },
-    )
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        payload = json.loads(resp.read())
-    if "errors" in payload:
-        raise SystemExit(f"GraphQL error: {payload['errors']}")
-    return payload["data"]["user"]
+    return gh.graphql(QUERY, variables)["user"]
 
 
 def collect_days() -> dict[dt.date, int]:
@@ -61,7 +42,7 @@ def collect_days() -> dict[dt.date, int]:
     today = dt.date.today()
     first = graphql(
         {
-            "login": USER,
+            "login": gh.USER,
             "from": f"{today.year}-01-01T00:00:00Z",
             "to": f"{today.isoformat()}T00:00:00Z",
         }
@@ -74,7 +55,7 @@ def collect_days() -> dict[dt.date, int]:
         end = min(dt.date(start.year, 12, 31), today)
         data = graphql(
             {
-                "login": USER,
+                "login": gh.USER,
                 "from": f"{start.isoformat()}T00:00:00Z",
                 "to": f"{end.isoformat()}T23:59:59Z",
             }

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 263.5" width="860" height="264"
+     role="img" aria-label="About Raunak, as a TypeScript object">
+  <title>const raunak = { ... }</title>
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b28"/>
+    </linearGradient>
+    <linearGradient id="cac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6929C4"/><stop offset="50%" stop-color="#1F6FEB"/>
+      <stop offset="100%" stop-color="#00D4AA"/>
+    </linearGradient>
+    <style>
+      .ln  { font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace;
+              font-size:12px; }
+      .tab { font-family:"JetBrains Mono",Consolas,monospace; font-size:11.5px;
+              fill:#8B949E; }
+    </style>
+  </defs>
+
+  <rect width="860" height="264" rx="12" fill="url(#cbg)"/>
+  <rect x="1" y="1" width="858" height="262" rx="11" fill="none"
+        stroke="url(#cac)" stroke-opacity="0.4" stroke-width="2"/>
+
+  <!-- window chrome -->
+  <path d="M1 13a12 12 0 0 1 12-12h834a12 12 0 0 1 12 12v25H1z" fill="#0b0e14" fill-opacity="0.8"/>
+  <line x1="1" y1="38" x2="859" y2="38" stroke="#30363D"/>
+  <circle cx="24" cy="20" r="5.5" fill="#FF5F57"/>
+  <circle cx="43" cy="20" r="5.5" fill="#FEBC2E"/>
+  <circle cx="62" cy="20" r="5.5" fill="#28C840"/>
+  <text x="86" y="24" class="tab">raunak.ts</text>
+  <text x="838" y="24" class="tab" text-anchor="end">TypeScript</text>
+
+    <text y="62.0" class="ln"><tspan x="30" fill="#4d5b7c"> 1</tspan><tspan x="62.0" fill="#FF7B72">const</tspan><tspan x="98.1" fill="#79C0FF"> raunak</tspan><tspan x="148.6" fill="#8B949E"> = </tspan><tspan x="170.3" fill="#8B949E">{</tspan></text>
+    <text y="81.5" class="ln"><tspan x="30" fill="#4d5b7c"> 2</tspan><tspan x="62.0" fill="#7EE7C7">  role</tspan><tspan x="105.3" fill="#8B949E">: </tspan><tspan x="119.8" fill="#A5D6FF">&quot;Full Stack · App · AI/ML · Web3 · Quantum&quot;</tspan><tspan x="430.2" fill="#8B949E">,</tspan></text>
+    <text y="101.0" class="ln"><tspan x="30" fill="#4d5b7c"> 3</tspan><tspan x="62.0" fill="#7EE7C7">  location</tspan><tspan x="134.2" fill="#8B949E">: </tspan><tspan x="148.6" fill="#A5D6FF">&quot;Mumbai, India&quot;</tspan><tspan x="256.9" fill="#8B949E">,</tspan></text>
+    <text y="120.5" class="ln"><tspan x="30" fill="#4d5b7c"> 4</tspan><tspan x="62.0" fill="#7EE7C7">  building</tspan><tspan x="134.2" fill="#8B949E">: </tspan><tspan x="148.6" fill="#8B949E">[</tspan><tspan x="155.9" fill="#A5D6FF">&quot;quantum tooling&quot;</tspan><tspan x="278.6" fill="#8B949E">, </tspan><tspan x="293.0" fill="#A5D6FF">&quot;apps&quot;</tspan><tspan x="336.4" fill="#8B949E">, </tspan><tspan x="350.8" fill="#A5D6FF">&quot;AI platforms&quot;</tspan><tspan x="451.9" fill="#8B949E">, </tspan><tspan x="466.3" fill="#A5D6FF">&quot;DApps&quot;</tspan><tspan x="516.9" fill="#8B949E">],</tspan></text>
+    <text y="140.0" class="ln"><tspan x="30" fill="#4d5b7c"> 5</tspan><tspan x="62.0" fill="#7EE7C7">  languages</tspan><tspan x="141.4" fill="#8B949E">: </tspan><tspan x="155.9" fill="#F0A868">30</tspan><tspan x="170.3" fill="#8B949E">,</tspan><tspan x="177.5" fill="#6E7A91">        // across 54 public repos</tspan></text>
+    <text y="159.5" class="ln"><tspan x="30" fill="#4d5b7c"> 6</tspan><tspan x="62.0" fill="#7EE7C7">  stack</tspan><tspan x="112.5" fill="#8B949E">: </tspan><tspan x="127.0" fill="#8B949E">[</tspan><tspan x="134.2" fill="#A5D6FF">&quot;TypeScript&quot;</tspan><tspan x="220.8" fill="#8B949E">, </tspan><tspan x="235.3" fill="#A5D6FF">&quot;Python&quot;</tspan><tspan x="293.0" fill="#8B949E">, </tspan><tspan x="307.5" fill="#A5D6FF">&quot;Flutter&quot;</tspan><tspan x="372.5" fill="#8B949E">, </tspan><tspan x="386.9" fill="#A5D6FF">&quot;Swift&quot;</tspan><tspan x="437.4" fill="#8B949E">, </tspan><tspan x="451.9" fill="#A5D6FF">&quot;Solidity&quot;</tspan><tspan x="524.1" fill="#8B949E">],</tspan></text>
+    <text y="179.0" class="ln"><tspan x="30" fill="#4d5b7c"> 7</tspan><tspan x="62.0" fill="#7EE7C7">  philosophy</tspan><tspan x="148.6" fill="#8B949E">: </tspan><tspan x="163.1" fill="#A5D6FF">&quot;Build it, run it, measure it — then ship it.&quot;</tspan><tspan x="495.2" fill="#8B949E">,</tspan></text>
+    <text y="198.5" class="ln"><tspan x="30" fill="#4d5b7c"> 8</tspan><tspan x="62.0" fill="#7EE7C7">  openTo</tspan><tspan x="119.8" fill="#8B949E">: </tspan><tspan x="134.2" fill="#8B949E">[</tspan><tspan x="141.4" fill="#A5D6FF">&quot;collabs&quot;</tspan><tspan x="206.4" fill="#8B949E">, </tspan><tspan x="220.8" fill="#A5D6FF">&quot;OSS&quot;</tspan><tspan x="256.9" fill="#8B949E">, </tspan><tspan x="271.4" fill="#A5D6FF">&quot;hard problems&quot;</tspan><tspan x="379.7" fill="#8B949E">],</tspan></text>
+    <text y="218.0" class="ln"><tspan x="30" fill="#4d5b7c"> 9</tspan><tspan x="62.0" fill="#8B949E">}</tspan><tspan x="69.2" fill="#FF7B72"> as</tspan><tspan x="90.9" fill="#FF7B72"> const</tspan><tspan x="134.2" fill="#8B949E">;</tspan></text>
+
+  <rect x="98.1" y="208.0" width="8" height="14" fill="#7EE7C7">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

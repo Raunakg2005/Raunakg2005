@@ -35,17 +35,11 @@
 
 <img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/sections/about.svg" alt="About Me" />
 
-```ts
-const raunak = {
-  role:       "Full Stack · App · AI/ML · Web3 · Quantum",
-  location:   "Mumbai, India 🇮🇳",
-  building:   ["Quantum tooling", "Cross-platform apps", "AI platforms", "DApps", "XR experiences"],
-  languages:  30,        // shipped across 54 public repos
-  stack:      ["TypeScript", "Python", "Flutter", "Swift", "Solidity", "Qiskit", "Unity"],
-  philosophy: "Build it, run it, measure it — then ship it.",
-  openTo:     ["Collabs", "OSS", "Hard problems"],
-} as const;
-```
+<div align="center">
+
+<img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/about-code.svg" alt="const raunak = { role: Full Stack, App, AI/ML, Web3, Quantum — Mumbai, India }" />
+
+</div>
 
 <details>
 <summary><b>👉 A bit more (click to expand)</b></summary>
@@ -193,54 +187,13 @@ flowchart LR
     class B1,C1,D1 leaf
 ```
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-### 🐛 [quantum-debugger](https://github.com/Raunakg2005/quantum-debugger)
+<a href="https://quantum-debugger.vercel.app"><img width="49%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/cards/quantum-debugger.svg" alt="quantum-debugger — Python, 20 stars, live" /></a>
+<a href="https://quantum-crypto-chat-bb-84.vercel.app"><img width="49%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/cards/quantum-crypto-chat-BB84.svg" alt="quantum-crypto-chat — BB84 QKD, TypeScript, 6 stars, live" /></a>
+<a href="https://qpilot.quantyxio.cloud/"><img width="49%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/cards/qubit-pilot.svg" alt="qubit-pilot — quantum circuit workbench, TypeScript, live" /></a>
 
-[![Stars](https://img.shields.io/github/stars/Raunakg2005/quantum-debugger?style=flat-square&labelColor=0d1117&color=00D4AA&logo=star&logoColor=white)](https://github.com/Raunakg2005/quantum-debugger/stargazers)
-[![Python](https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white)](https://github.com/Raunakg2005/quantum-debugger)
-[![Live](https://img.shields.io/badge/live-quantum--debugger-1F6FEB?style=flat-square&logo=vercel&logoColor=white)](https://quantum-debugger.vercel.app)
-
-Debugging and inspection tooling for quantum circuits — step through a circuit, inspect intermediate state, and find where the algorithm actually breaks.
-
-</td>
-<td width="50%" valign="top">
-
-### 🔐 [quantum-crypto-chat-BB84](https://github.com/Raunakg2005/quantum-crypto-chat-BB84)
-
-[![Stars](https://img.shields.io/github/stars/Raunakg2005/quantum-crypto-chat-BB84?style=flat-square&labelColor=0d1117&color=00D4AA&logo=star&logoColor=white)](https://github.com/Raunakg2005/quantum-crypto-chat-BB84/stargazers)
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/Raunakg2005/quantum-crypto-chat-BB84)
-[![Live](https://img.shields.io/badge/live-bb84--chat-1F6FEB?style=flat-square&logo=vercel&logoColor=white)](https://quantum-crypto-chat-bb-84.vercel.app)
-
-Chat secured by the **BB84 quantum key distribution protocol** — key exchange, eavesdropper detection, and real-time encrypted messaging.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎛️ [qubit-pilot](https://github.com/Raunakg2005/qubit-pilot)
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/Raunakg2005/qubit-pilot)
-[![Live](https://img.shields.io/badge/live-qpilot.quantyxio.cloud-1F6FEB?style=flat-square&logo=icloud&logoColor=white)](https://qpilot.quantyxio.cloud/)
-
-A quantum circuit workbench — build, run, and visualise circuits straight from the browser.
-
-</td>
-<td width="50%" valign="top">
-
-### 🧪 [QuantumS-hack](https://github.com/Raunakg2005/QuantumS-hack)
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/Raunakg2005/QuantumS-hack)
-[![Hackathon](https://img.shields.io/badge/hackathon-build-6929C4?style=flat-square&logo=hackaday&logoColor=white)](https://github.com/Raunakg2005/QuantumS-hack)
-
-Quantum hackathon build — rapid prototyping on quantum primitives under a deadline.
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
@@ -249,52 +202,14 @@ Quantum hackathon build — rapid prototyping on quantum primitives under a dead
 
 <img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/sections/apps.svg" alt="App Development, AR and VR" />
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-### 🗺️ [ResoRoute](https://github.com/Raunakg2005/ResoRoute)
+<a href="https://reso-route.vercel.app"><img width="49%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/cards/ResoRoute.svg" alt="ResoRoute — Flutter routing app, live" /></a>
+<a href="https://github.com/Raunakg2005/ios-exp-2"><img width="49%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/cards/ios-exp-2.svg" alt="Campus Connect — native SwiftUI iOS app" /></a>
+<a href="https://github.com/Raunakg2005/VR_Shooting_Gallery"><img width="49%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/cards/VR_Shooting_Gallery.svg" alt="VR Shooting Gallery — Unity, C#" /></a>
+<a href="https://github.com/Raunakg2005/chem-ar"><img width="49%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/cards/chem-ar.svg" alt="Chem AR — augmented reality chemistry visualiser" /></a>
 
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)](https://github.com/Raunakg2005/ResoRoute)
-[![Live](https://img.shields.io/badge/live-reso--route-1F6FEB?style=flat-square&logo=vercel&logoColor=white)](https://reso-route.vercel.app)
-
-Cross-platform routing and resource-navigation app built in Flutter.
-
-</td>
-<td width="50%" valign="top">
-
-### 🎓 [Campus Connect](https://github.com/Raunakg2005/ios-exp-2)
-
-[![Swift](https://img.shields.io/badge/SwiftUI-F05138?style=flat-square&logo=swift&logoColor=white)](https://github.com/Raunakg2005/ios-exp-2)
-[![iOS](https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white)](https://github.com/Raunakg2005/ios-exp-2)
-
-Native SwiftUI college companion app — a full iOS build, not a wrapper.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🥽 [VR Shooting Gallery](https://github.com/Raunakg2005/VR_Shooting_Gallery)
-
-[![Unity](https://img.shields.io/badge/Unity-100000?style=flat-square&logo=unity&logoColor=white)](https://github.com/Raunakg2005/VR_Shooting_Gallery)
-[![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)](https://github.com/Raunakg2005/VR_Shooting_Gallery)
-
-Room-scale VR shooting range built in Unity with custom shaders.
-
-</td>
-<td width="50%" valign="top">
-
-### 🧪 [Chem AR](https://github.com/Raunakg2005/chem-ar)
-
-[![Unity](https://img.shields.io/badge/Unity-100000?style=flat-square&logo=unity&logoColor=white)](https://github.com/Raunakg2005/chem-ar)
-[![AR](https://img.shields.io/badge/AR-4285F4?style=flat-square&logo=google&logoColor=white)](https://github.com/Raunakg2005/chem-ar)
-
-Augmented-reality chemistry visualiser — molecules rendered into the real world.
-
-</td>
-</tr>
-</table>
+</div>
 
 <details>
 <summary><b>📱 More app &amp; XR builds</b></summary>
@@ -319,75 +234,17 @@ Augmented-reality chemistry visualiser — molecules rendered into the real worl
 
 <img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/sections/projects.svg" alt="Featured Projects" />
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-### 🛰️ [astra-crime-intelligence](https://github.com/Raunakg2005/astra-crime-intelligence)
+<a href="https://github.com/Raunakg2005/astra-crime-intelligence"><img width="49%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/cards/astra-crime-intelligence.svg" alt="astra-crime-intelligence — AI crime analytics for Karnataka State Police" /></a>
+<a href="https://f-shield.vercel.app"><img width="49%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/cards/F-Shield.svg" alt="F-Shield — fraud and threat detection platform, live" /></a>
+<a href="https://github.com/Raunakg2005/Savaaree-Ride-App"><img width="49%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/cards/Savaaree-Ride-App.svg" alt="Savaaree — blockchain ride-sharing DApp" /></a>
 
-[![Python](https://img.shields.io/badge/Python-3572A5?style=flat-square&logo=python&logoColor=white)](https://github.com/Raunakg2005/astra-crime-intelligence)
-[![ML](https://img.shields.io/badge/ML_+_NLP-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://github.com/Raunakg2005/astra-crime-intelligence)
-[![Zoho Catalyst](https://img.shields.io/badge/Zoho_Catalyst-E42527?style=flat-square&logo=zoho&logoColor=white)](https://github.com/Raunakg2005/astra-crime-intelligence)
+<br/><br/>
 
-AI-driven crime analytics for the **Karnataka State Police** — geospatial hotspots, criminal-network link analysis, and predictive + NLP models.
+<img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/project-index.svg" alt="Full project index — 12 projects with domain, stack, stars and live status" />
 
-</td>
-<td width="50%" valign="top">
-
-### 🛡️ [F-Shield](https://github.com/Raunakg2005/F-Shield)
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://github.com/Raunakg2005/F-Shield)
-[![Live](https://img.shields.io/badge/live-f--shield-1F6FEB?style=flat-square&logo=vercel&logoColor=white)](https://f-shield.vercel.app)
-
-Fraud and threat detection platform with a live dashboard.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🚗 [Savaaree](https://github.com/Raunakg2005/Savaaree-Ride-App)
-
-[![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white)](https://github.com/Raunakg2005/Savaaree-Ride-App)
-[![Web3](https://img.shields.io/badge/Web3.js-F16822?style=flat-square&logo=web3dotjs&logoColor=white)](https://github.com/Raunakg2005/Savaaree-Ride-App)
-
-Blockchain ride-sharing DApp — smart-contract settlement and real-time matching.
-
-</td>
-<td width="50%" valign="top">
-
-### 💊 [choices-anti-drug](https://github.com/Raunakg2005/choices-anti-drug-vite)
-
-[![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://github.com/Raunakg2005/choices-anti-drug-vite)
-[![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)](https://github.com/Raunakg2005/choices-anti-drug-vite)
-
-Drug-awareness platform with a Gemini-powered chatbot, forum, and auth.
-
-</td>
-</tr>
-</table>
-
-<details open>
-<summary><b>📋 Full project index</b></summary>
-
-<br/>
-
-| Project | Domain | Stack | Live |
-|---|---|---|---|
-| **[quantum-debugger](https://github.com/Raunakg2005/quantum-debugger)** `⭐20` | ⚛️ Quantum | `Python` `Qiskit` | [↗](https://quantum-debugger.vercel.app) |
-| **[quantum-crypto-chat-BB84](https://github.com/Raunakg2005/quantum-crypto-chat-BB84)** `⭐6` | ⚛️ Quantum crypto | `Next.js` `TypeScript` | [↗](https://quantum-crypto-chat-bb-84.vercel.app) |
-| **[qubit-pilot](https://github.com/Raunakg2005/qubit-pilot)** | ⚛️ Quantum tooling | `TypeScript` | [↗](https://qpilot.quantyxio.cloud/) |
-| **[astra-crime-intelligence](https://github.com/Raunakg2005/astra-crime-intelligence)** | 🤖 AI/ML | `Python` `ML` `NLP` | — |
-| **[F-Shield](https://github.com/Raunakg2005/F-Shield)** | 🛡️ Security | `TypeScript` | [↗](https://f-shield.vercel.app) |
-| **[Savaaree](https://github.com/Raunakg2005/Savaaree-Ride-App)** | ⛓️ Web3 | `Node` `Web3.js` `Solidity` | — |
-| **[ResoRoute](https://github.com/Raunakg2005/ResoRoute)** | 📱 App | `Flutter` `Dart` | [↗](https://reso-route.vercel.app) |
-| **[Campus Connect](https://github.com/Raunakg2005/ios-exp-2)** | 📱 iOS | `Swift` `SwiftUI` | — |
-| **[VR Shooting Gallery](https://github.com/Raunakg2005/VR_Shooting_Gallery)** | 🥽 XR | `Unity` `C#` | — |
-| **[chem-ar](https://github.com/Raunakg2005/chem-ar)** | 🥽 AR | `Unity` `C#` | — |
-| **[choices-anti-drug](https://github.com/Raunakg2005/choices-anti-drug-vite)** | 🤖 AI product | `Vite` `React` `MongoDB` | — |
-| **[Novadiff](https://github.com/Raunakg2005/Novadiff-jac)** | 🧬 Experimental | `Jac` | — |
-
-</details>
+</div>
 
 ---
 
@@ -401,20 +258,15 @@ Drug-awareness platform with a Gemini-powered chatbot, forum, and auth.
 <img height="290" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/lang-stats.svg" alt="Language mix across all public repositories" />
 <img height="290" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/streak.svg" alt="Contribution streak" />
 
-</div>
+<br/><br/>
 
-<details open>
-<summary><b>📈 Contribution activity</b></summary>
-
-<br/>
-<div align="center">
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Raunakg2005&theme=tokyo-night&hide_border=true&radius=12&area=true&custom_title=Contribution%20Activity" alt="Activity graph" />
+<img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/contrib-graph.svg" alt="Contribution calendar for the last year" />
 
 </div>
-</details>
 
 ---
+
+<!-- ══════════════════════════════  SNAKE  ══════════════════════════════ -->
 
 <img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/sections/snake.svg" alt="Contribution Snake" />
 
