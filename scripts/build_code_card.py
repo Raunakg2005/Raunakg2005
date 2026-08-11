@@ -19,10 +19,13 @@ KW, VAR, STR, NUM, PUN, CMT, PROP = (
 # (indent, [(text, colour), ...]) — tokenised by hand so the colours are exact.
 LINES = [
     [("const", KW), (" raunak", VAR), (" = ", PUN), ("{", PUN)],
-    [("  role", PROP), (": ", PUN), ('"Full Stack · App · AI/ML · Web3 · Quantum"', STR), (",", PUN)],
+    [("  role", PROP), (": ", PUN), ('"Full Stack · App · AI/ML · DevOps · Web3 · Quantum"', STR), (",", PUN)],
     [("  location", PROP), (": ", PUN), ('"Mumbai, India"', STR), (",", PUN)],
     [("  building", PROP), (": ", PUN), ("[", PUN), ('"quantum tooling"', STR), (", ", PUN),
      ('"apps"', STR), (", ", PUN), ('"AI platforms"', STR), (", ", PUN), ('"DApps"', STR), ("],", PUN)],
+    [("  ops", PROP), (": ", PUN), ("[", PUN), ('"Docker"', STR), (", ", PUN), ('"Kubernetes"', STR),
+     (", ", PUN), ('"Jenkins"', STR), (", ", PUN), ('"MLflow"', STR), (", ", PUN),
+     ('"Airflow"', STR), ("],", PUN)],
     [("  languages", PROP), (": ", PUN), ("30", NUM), (",", PUN),
      ("        // across 54 public repos", CMT)],
     [("  stack", PROP), (": ", PUN), ("[", PUN), ('"TypeScript"', STR), (", ", PUN),

@@ -7,7 +7,7 @@
 <br/>
 
 <a href="https://github.com/Raunakg2005">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=850&color=1F6FEB&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+%E2%80%A2+TypeScript+%2F+Python;App+Developer+%E2%80%A2+Flutter+%2F+SwiftUI+%2F+Kotlin;AI%2FML+Engineer+%E2%80%A2+PyTorch+%2F+TensorFlow;Blockchain+%26+Web3+Dev+%E2%80%A2+Solidity+%2F+Ethereum;Quantum+Computing+Dev+%E2%80%A2+Qiskit+%2F+QKD;AR+%2F+VR+%2F+Game+Dev+%E2%80%A2+Unity+%2F+C%23;I+ship+things+that+actually+run+in+production." alt="What I do" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2600&pause=850&color=1F6FEB&center=true&vCenter=true&width=700&lines=Full+Stack+Developer+%E2%80%A2+TypeScript+%2F+Python;App+Developer+%E2%80%A2+Flutter+%2F+SwiftUI+%2F+Kotlin;AI%2FML+Engineer+%E2%80%A2+PyTorch+%2F+TensorFlow;Blockchain+%26+Web3+Dev+%E2%80%A2+Solidity+%2F+Ethereum;Quantum+Computing+Dev+%E2%80%A2+Qiskit+%2F+QKD;AR+%2F+VR+%2F+Game+Dev+%E2%80%A2+Unity+%2F+C%23;DevOps+%26+MLOps+%E2%80%A2+Docker+%2F+K8s+%2F+CI-CD;I+ship+things+that+actually+run+in+production." alt="What I do" />
 </a>
 
 <br/>
@@ -54,7 +54,8 @@
 | 🤖 | **AI/ML that gets deployed** — geospatial crime analytics, NLP pipelines, fraud detection, and LLM-backed products. |
 | ⛓️ | **Solidity smart contracts** and DApps with real Web3 integration. |
 | 🎮 | **AR / VR / game dev in Unity** — C#, custom HLSL and ShaderLab shaders, and a handful of VR builds. |
-| 🎯 | I care about the boring parts: tests, CI, Docker, and code someone else can read. |
+| ⚙️ | **DevOps &amp; MLOps** — Dockerised services, Jenkins and GitHub Actions pipelines, Kubernetes, and ML that gets versioned, tracked and served rather than left in a notebook. |
+| 🎯 | I care about the boring parts: tests, CI, monitoring, and code someone else can read. |
 | 📫 | Open to collaboration — **[raunakg2005@gmail.com](mailto:raunakg2005@gmail.com)** |
 
 </details>
@@ -140,6 +141,39 @@
 ![ShaderLab](https://img.shields.io/badge/ShaderLab-222C37?style=for-the-badge&logo=unity&logoColor=white)
 ![ARCore](https://img.shields.io/badge/ARCore-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
+
+</details>
+
+<details>
+<summary><b>⚙️ DevOps &amp; MLOps</b></summary>
+<br/>
+
+**CI / CD &amp; infrastructure**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+**Observability**
+
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+
+**MLOps — training to production**
+
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+![DVC](https://img.shields.io/badge/DVC-13ADC7?style=for-the-badge&logo=dvc&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Weights & Biases](https://img.shields.io/badge/W%26B-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black)
+![Argo](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
+![FastAPI](https://img.shields.io/badge/Model_Serving-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+**Hands-on labs:** [devops-exp-2](https://github.com/Raunakg2005/devops-exp-2) — a sample app built and tested by a Jenkins CI pipeline &nbsp;·&nbsp; [devops-exp-1](https://github.com/Raunakg2005/devops-exp-1) — every command from the official git cheat sheet, documented with real output.
 
 </details>
 
