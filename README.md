@@ -163,8 +163,6 @@
 ![Argo](https://img.shields.io/badge/Argo_CD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/Model_Serving-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
-**Hands-on labs:** [devops-exp-2](https://github.com/Raunakg2005/devops-exp-2) — a sample app built and tested by a Jenkins CI pipeline &nbsp;·&nbsp; [devops-exp-1](https://github.com/Raunakg2005/devops-exp-1) — every command from the official git cheat sheet, documented with real output.
-
 </details>
 
 <details>
