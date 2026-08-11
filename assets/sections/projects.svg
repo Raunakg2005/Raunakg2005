@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 66" width="860" height="66"
+     role="img" aria-label="Featured Projects">
+  <title>Featured Projects</title>
+  <defs>
+    <linearGradient id="bg-projects" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#F0A868" stop-opacity="0.16"/>
+      <stop offset="55%"  stop-color="#0d1117" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rule-projects" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#F0A868"/>
+      <stop offset="60%"  stop-color="#F0A868" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#F0A868" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="badge-projects" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#F0A868" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#F0A868" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="soft-projects" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .t-projects { font-family:"Segoe UI",Inter,Helvetica,Arial,sans-serif;
+                   font-size:23px; font-weight:800; fill:#ffffff; letter-spacing:-0.2px; }
+      .k-projects { font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace;
+                   font-size:9.5px; font-weight:600; fill:#F0A868;
+                   fill-opacity:0.75; letter-spacing:2px; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="860" height="66" rx="12" fill="url(#bg-projects)"/>
+
+  <!-- accent badge + vector glyph -->
+  <rect x="14" y="16" width="34" height="34" rx="10" fill="url(#badge-projects)"
+        stroke="#F0A868" stroke-opacity="0.45"/>
+  <g transform="translate(19 21) scale(1)" color="#F0A868" opacity="0.95">
+    <g transform="scale(1)"><rect x="2.6" y="2.6" width="8.2" height="8.2" rx="1.8" fill="none" stroke="currentColor" stroke-width="2"/><rect x="13.2" y="2.6" width="8.2" height="8.2" rx="1.8" fill="currentColor" opacity="0.85"/><rect x="2.6" y="13.2" width="8.2" height="8.2" rx="1.8" fill="currentColor" opacity="0.85"/><rect x="13.2" y="13.2" width="8.2" height="8.2" rx="1.8" fill="none" stroke="currentColor" stroke-width="2"/></g>
+  </g>
+
+  <text x="62" y="31" class="t-projects">Featured Projects</text>
+  <text x="63" y="47" class="k-projects">THINGS THAT ACTUALLY RUN</text>
+
+  <!-- trailing rule with a travelling highlight -->
+  <rect x="62" y="55" width="760" height="2" rx="1" fill="url(#rule-projects)" opacity="0.5"/>
+  <rect y="55" width="90" height="2" rx="1" fill="#F0A868" filter="url(#soft-projects)">
+    <animate attributeName="x" values="62;670;62" dur="7s"
+             keyTimes="0;0.5;1" calcMode="spline"
+             keySplines="0.45 0 0.55 1;0.45 0 0.55 1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.75;0.15" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>

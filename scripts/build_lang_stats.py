@@ -9,9 +9,11 @@ rate-limit us.
 """
 
 import collections
+import http.client
 import json
 import os
 import pathlib
+import time
 import urllib.error
 import urllib.request
 
@@ -35,7 +37,7 @@ COLOURS = {
 FALLBACK = "#8B949E"
 
 
-def api(path: str):
+def api(path: str, attempts: int = 4):
     req = urllib.request.Request(
         f"https://api.github.com/{path}",
         headers={
@@ -46,11 +48,29 @@ def api(path: str):
     token = os.environ.get("GITHUB_TOKEN")
     if token:
         req.add_header("Authorization", f"Bearer {token}")
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return json.loads(resp.read())
+
+    for attempt in range(attempts):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                return json.loads(resp.read())
+        except urllib.error.HTTPError:
+            raise  # a real API answer (404 on an empty repo) — let the caller decide
+        except (urllib.error.URLError, http.client.HTTPException, OSError):
+            # The API drops connections occasionally; retry rather than fail
+            # the whole card and leave a stale SVG committed.
+            if attempt == attempts - 1:
+                raise
+            time.sleep(2 * (attempt + 1))
 
 
 def collect() -> tuple[collections.Counter, int, int]:
+    """Weight every repo equally instead of summing raw bytes.
+
+    Raw byte totals are meaningless here: a single Unity project vendors a
+    ~650MB C++ engine SDK, which alone was rendering the card as "85% C++".
+    Normalising within each repo first, then averaging, means one repo full of
+    third-party code cannot drown out the other fifty-odd.
+    """
     totals: collections.Counter = collections.Counter()
     repos, stars, page = 0, 0, 1
     while True:
@@ -63,9 +83,14 @@ def collect() -> tuple[collections.Counter, int, int]:
             repos += 1
             stars += repo.get("stargazers_count", 0)
             try:
-                totals.update(api(f"repos/{USER}/{repo['name']}/languages"))
+                langs = api(f"repos/{USER}/{repo['name']}/languages")
             except urllib.error.HTTPError:
-                pass  # empty or inaccessible repo — just skip it
+                continue  # empty or inaccessible repo — just skip it
+            repo_bytes = sum(langs.values())
+            if not repo_bytes:
+                continue
+            for name, size in langs.items():
+                totals[name] += size / repo_bytes  # this repo's share, capped at 1.0
         page += 1
     return totals, repos, stars
 
@@ -134,6 +159,8 @@ def build(totals: collections.Counter, repos: int, stars: int) -> str:
               font-weight:700; fill:#79C0FF; }}
       .kl  {{ font-family:"Segoe UI",Inter,Helvetica,sans-serif; font-size:10px;
               fill:#6E7A91; letter-spacing:1.1px; }}
+      .tl  {{ font-family:"JetBrains Mono",Consolas,monospace; font-size:15px;
+              font-weight:700; fill:#79C0FF; }}
     </style>
   </defs>
 
@@ -142,7 +169,7 @@ def build(totals: collections.Counter, repos: int, stars: int) -> str:
         stroke="url(#lac)" stroke-opacity="0.4" stroke-width="2"/>
 
   <text x="22" y="34" class="ttl">◈ Language Mix</text>
-  <text x="22" y="56" class="pc">across {repos} public repositories</text>
+  <text x="22" y="56" class="pc">{repos} public repos · each weighted equally</text>
 
 {chr(10).join(bar)}
 
@@ -156,8 +183,8 @@ def build(totals: collections.Counter, repos: int, stars: int) -> str:
     <text x="200" y="282" class="kl" text-anchor="middle">LANGUAGES</text>
     <text x="340" y="266" class="kv" text-anchor="middle">{stars}</text>
     <text x="340" y="282" class="kl" text-anchor="middle">STARS</text>
-    <text x="460" y="266" class="kv" text-anchor="middle">{grand // 1_000_000}M</text>
-    <text x="460" y="282" class="kl" text-anchor="middle">BYTES</text>
+    <text x="460" y="264" class="tl" text-anchor="middle">{rows[0][0]}</text>
+    <text x="460" y="282" class="kl" text-anchor="middle">MOST USED</text>
   </g>
 </svg>
 '''

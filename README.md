@@ -33,7 +33,7 @@
 <!-- ══════════════════════════════  ABOUT  ══════════════════════════════ -->
 <a id="about"></a>
 
-## 🧠 About Me
+<img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/sections/about.svg" alt="About Me" />
 
 ```ts
 const raunak = {
@@ -70,7 +70,7 @@ const raunak = {
 <!-- ══════════════════════════════  STACK  ══════════════════════════════ -->
 <a id="stack"></a>
 
-## 🛠️ Tech Stack
+<img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/sections/stack.svg" alt="Tech Stack" />
 
 <div align="center">
 
@@ -173,9 +173,7 @@ const raunak = {
 <!-- ══════════════════════════════  QUANTUM  ══════════════════════════════ -->
 <a id="quantum"></a>
 
-## ⚛️ Quantum Computing — What I've Built
-
-> Not "currently exploring." Shipped, deployed, and publicly usable.
+<img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/sections/quantum.svg" alt="Quantum Computing" />
 
 ```mermaid
 flowchart LR
@@ -249,7 +247,7 @@ Quantum hackathon build — rapid prototyping on quantum primitives under a dead
 <!-- ══════════════════════════════  APPS & XR  ══════════════════════════════ -->
 <a id="apps"></a>
 
-## 📱 App Development · AR / VR
+<img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/sections/apps.svg" alt="App Development, AR and VR" />
 
 <table>
 <tr>
@@ -319,7 +317,7 @@ Augmented-reality chemistry visualiser — molecules rendered into the real worl
 <!-- ══════════════════════════════  PROJECTS  ══════════════════════════════ -->
 <a id="projects"></a>
 
-## 🚀 Featured Projects
+<img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/sections/projects.svg" alt="Featured Projects" />
 
 <table>
 <tr>
@@ -396,7 +394,7 @@ Drug-awareness platform with a Gemini-powered chatbot, forum, and auth.
 <!-- ══════════════════════════════  STATS  ══════════════════════════════ -->
 <a id="stats"></a>
 
-## 📊 By the Numbers
+<img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/sections/stats.svg" alt="By the Numbers" />
 
 <div align="center">
 
@@ -404,8 +402,6 @@ Drug-awareness platform with a Gemini-powered chatbot, forum, and auth.
 <img height="290" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/streak.svg" alt="Contribution streak" />
 
 </div>
-
-> Both cards are generated straight from the GitHub API by [a workflow in this repo](.github/workflows/build-assets.yml) and committed as static SVGs — no shared third-party instance to run out of API quota, and nothing for GitHub's image proxy to time out on.
 
 <details open>
 <summary><b>📈 Contribution activity</b></summary>
@@ -420,7 +416,7 @@ Drug-awareness platform with a Gemini-powered chatbot, forum, and auth.
 
 ---
 
-## 🐍 Watch the Snake Eat My Commits
+<img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/sections/snake.svg" alt="Contribution Snake" />
 
 <div align="center">
 
@@ -437,7 +433,7 @@ Drug-awareness platform with a Gemini-powered chatbot, forum, and auth.
 <!-- ══════════════════════════════  CONNECT  ══════════════════════════════ -->
 <a id="connect"></a>
 
-## 🤝 Connect
+<img width="100%" src="https://raw.githubusercontent.com/Raunakg2005/Raunakg2005/main/assets/sections/connect.svg" alt="Connect" />
 
 <div align="center">
 

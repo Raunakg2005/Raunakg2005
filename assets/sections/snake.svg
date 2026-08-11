@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 66" width="860" height="66"
+     role="img" aria-label="Contribution Snake">
+  <title>Contribution Snake</title>
+  <defs>
+    <linearGradient id="bg-snake" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#7EE7C7" stop-opacity="0.16"/>
+      <stop offset="55%"  stop-color="#0d1117" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rule-snake" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#7EE7C7"/>
+      <stop offset="60%"  stop-color="#7EE7C7" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7EE7C7" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="badge-snake" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#7EE7C7" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#7EE7C7" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="soft-snake" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .t-snake { font-family:"Segoe UI",Inter,Helvetica,Arial,sans-serif;
+                   font-size:23px; font-weight:800; fill:#ffffff; letter-spacing:-0.2px; }
+      .k-snake { font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace;
+                   font-size:9.5px; font-weight:600; fill:#7EE7C7;
+                   fill-opacity:0.75; letter-spacing:2px; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="860" height="66" rx="12" fill="url(#bg-snake)"/>
+
+  <!-- accent badge + vector glyph -->
+  <rect x="14" y="16" width="34" height="34" rx="10" fill="url(#badge-snake)"
+        stroke="#7EE7C7" stroke-opacity="0.45"/>
+  <g transform="translate(19 21) scale(1)" color="#7EE7C7" opacity="0.95">
+    <g transform="scale(1)"><rect x="2.4" y="9.6" width="4.6" height="4.6" rx="1.2" fill="currentColor" opacity="0.4"/><rect x="8.2" y="9.6" width="4.6" height="4.6" rx="1.2" fill="currentColor" opacity="0.7"/><rect x="14" y="9.6" width="4.6" height="4.6" rx="1.2" fill="currentColor"/><circle cx="21.2" cy="11.9" r="1.5" fill="currentColor"/></g>
+  </g>
+
+  <text x="62" y="31" class="t-snake">Contribution Snake</text>
+  <text x="63" y="47" class="k-snake">WATCH IT EAT A YEAR OF COMMITS</text>
+
+  <!-- trailing rule with a travelling highlight -->
+  <rect x="62" y="55" width="760" height="2" rx="1" fill="url(#rule-snake)" opacity="0.5"/>
+  <rect y="55" width="90" height="2" rx="1" fill="#7EE7C7" filter="url(#soft-snake)">
+    <animate attributeName="x" values="62;670;62" dur="7s"
+             keyTimes="0;0.5;1" calcMode="spline"
+             keySplines="0.45 0 0.55 1;0.45 0 0.55 1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.75;0.15" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>

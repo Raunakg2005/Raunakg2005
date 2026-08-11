@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 66" width="860" height="66"
+     role="img" aria-label="Quantum Computing">
+  <title>Quantum Computing</title>
+  <defs>
+    <linearGradient id="bg-quantum" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#B191FF" stop-opacity="0.16"/>
+      <stop offset="55%"  stop-color="#0d1117" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rule-quantum" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#B191FF"/>
+      <stop offset="60%"  stop-color="#B191FF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#B191FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="badge-quantum" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#B191FF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#B191FF" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="soft-quantum" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .t-quantum { font-family:"Segoe UI",Inter,Helvetica,Arial,sans-serif;
+                   font-size:23px; font-weight:800; fill:#ffffff; letter-spacing:-0.2px; }
+      .k-quantum { font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace;
+                   font-size:9.5px; font-weight:600; fill:#B191FF;
+                   fill-opacity:0.75; letter-spacing:2px; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="860" height="66" rx="12" fill="url(#bg-quantum)"/>
+
+  <!-- accent badge + vector glyph -->
+  <rect x="14" y="16" width="34" height="34" rx="10" fill="url(#badge-quantum)"
+        stroke="#B191FF" stroke-opacity="0.45"/>
+  <g transform="translate(19 21) scale(1)" color="#B191FF" opacity="0.95">
+    <g transform="scale(1)"><circle cx="12" cy="12" r="2.6" fill="currentColor"/><ellipse cx="12" cy="12" rx="10.4" ry="4.4" fill="none" stroke="currentColor" stroke-width="1.8"/><ellipse cx="12" cy="12" rx="10.4" ry="4.4" fill="none" stroke="currentColor" stroke-width="1.8" transform="rotate(60 12 12)"/><ellipse cx="12" cy="12" rx="10.4" ry="4.4" fill="none" stroke="currentColor" stroke-width="1.8" transform="rotate(120 12 12)"/></g>
+  </g>
+
+  <text x="62" y="31" class="t-quantum">Quantum Computing</text>
+  <text x="63" y="47" class="k-quantum">SHIPPED, DEPLOYED, PUBLICLY USABLE</text>
+
+  <!-- trailing rule with a travelling highlight -->
+  <rect x="62" y="55" width="760" height="2" rx="1" fill="url(#rule-quantum)" opacity="0.5"/>
+  <rect y="55" width="90" height="2" rx="1" fill="#B191FF" filter="url(#soft-quantum)">
+    <animate attributeName="x" values="62;670;62" dur="7s"
+             keyTimes="0;0.5;1" calcMode="spline"
+             keySplines="0.45 0 0.55 1;0.45 0 0.55 1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.75;0.15" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>

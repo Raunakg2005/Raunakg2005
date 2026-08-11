@@ -29,6 +29,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Build section header banners
+        run: python scripts/build_sections.py
+
       - name: Build avatar scan banner
         run: python scripts/build_avatar_scan.py
 

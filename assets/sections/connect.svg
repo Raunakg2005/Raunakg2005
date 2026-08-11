@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 66" width="860" height="66"
+     role="img" aria-label="Connect">
+  <title>Connect</title>
+  <defs>
+    <linearGradient id="bg-connect" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#F0A868" stop-opacity="0.16"/>
+      <stop offset="55%"  stop-color="#0d1117" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rule-connect" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#F0A868"/>
+      <stop offset="60%"  stop-color="#F0A868" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#F0A868" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="badge-connect" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#F0A868" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#F0A868" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="soft-connect" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .t-connect { font-family:"Segoe UI",Inter,Helvetica,Arial,sans-serif;
+                   font-size:23px; font-weight:800; fill:#ffffff; letter-spacing:-0.2px; }
+      .k-connect { font-family:"JetBrains Mono","SFMono-Regular",Consolas,monospace;
+                   font-size:9.5px; font-weight:600; fill:#F0A868;
+                   fill-opacity:0.75; letter-spacing:2px; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="860" height="66" rx="12" fill="url(#bg-connect)"/>
+
+  <!-- accent badge + vector glyph -->
+  <rect x="14" y="16" width="34" height="34" rx="10" fill="url(#badge-connect)"
+        stroke="#F0A868" stroke-opacity="0.45"/>
+  <g transform="translate(19 21) scale(1)" color="#F0A868" opacity="0.95">
+    <g transform="scale(1)"><circle cx="6.4" cy="12" r="3.6" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.6" cy="6.6" r="3.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.6" cy="17.4" r="3.2" fill="none" stroke="currentColor" stroke-width="2"/><line x1="9.6" y1="10.4" x2="14.6" y2="7.9" stroke="currentColor" stroke-width="2"/><line x1="9.6" y1="13.6" x2="14.6" y2="16.1" stroke="currentColor" stroke-width="2"/></g>
+  </g>
+
+  <text x="62" y="31" class="t-connect">Connect</text>
+  <text x="63" y="47" class="k-connect">OPEN TO COLLABORATION</text>
+
+  <!-- trailing rule with a travelling highlight -->
+  <rect x="62" y="55" width="760" height="2" rx="1" fill="url(#rule-connect)" opacity="0.5"/>
+  <rect y="55" width="90" height="2" rx="1" fill="#F0A868" filter="url(#soft-connect)">
+    <animate attributeName="x" values="62;670;62" dur="7s"
+             keyTimes="0;0.5;1" calcMode="spline"
+             keySplines="0.45 0 0.55 1;0.45 0 0.55 1" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.75;0.15" dur="7s" repeatCount="indefinite"/>
+  </rect>
+</svg>
