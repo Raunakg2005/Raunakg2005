@@ -30,23 +30,23 @@
   <text x="22" y="34" class="ttl">◈ Language Mix</text>
   <text x="22" y="56" class="pc">54 public repos · each weighted equally</text>
 
-    <rect x="22.0" y="74" width="191.7" height="16" rx="4" fill="#3178C6">
+    <rect x="22.0" y="74" width="191.6" height="16" rx="4" fill="#3178C6">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.00s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.00s" fill="freeze"/>
     </rect>
-    <rect x="213.7" y="74" width="66.4" height="16" fill="#3572A5">
+    <rect x="213.6" y="74" width="66.5" height="16" fill="#3572A5">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.07s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.07s" fill="freeze"/>
     </rect>
-    <rect x="280.1" y="74" width="46.9" height="16" fill="#F1E05A">
+    <rect x="280.1" y="74" width="46.8" height="16" fill="#F1E05A">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.14s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.14s" fill="freeze"/>
     </rect>
-    <rect x="326.9" y="74" width="27.3" height="16" fill="#178600">
+    <rect x="327.0" y="74" width="27.3" height="16" fill="#178600">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.21s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.21s" fill="freeze"/>
     </rect>
-    <rect x="354.2" y="74" width="26.5" height="16" fill="#F05138">
+    <rect x="354.3" y="74" width="26.5" height="16" fill="#F05138">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.28s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.28s" fill="freeze"/>
     </rect>
@@ -58,11 +58,11 @@
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.42s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.42s" fill="freeze"/>
     </rect>
-    <rect x="415.9" y="74" width="14.3" height="16" fill="#563D7C">
+    <rect x="416.0" y="74" width="14.3" height="16" fill="#563D7C">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.49s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.49s" fill="freeze"/>
     </rect>
-    <rect x="430.2" y="74" width="67.8" height="16" rx="4" fill="#8B949E">
+    <rect x="430.3" y="74" width="67.7" height="16" rx="4" fill="#8B949E">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.56s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.56s" fill="freeze"/>
     </rect>
@@ -71,13 +71,13 @@
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.25s" fill="freeze"/>
       <circle cx="27" cy="120" r="5.5" fill="#3178C6"/>
       <text x="40" y="124" class="lg">TypeScript</text>
-      <text x="240" y="124" class="pc" text-anchor="end">40.3%</text>
+      <text x="240" y="124" class="pc" text-anchor="end">40.2%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.31s" fill="freeze"/>
       <circle cx="277" cy="120" r="5.5" fill="#3572A5"/>
       <text x="290" y="124" class="lg">Python</text>
-      <text x="490" y="124" class="pc" text-anchor="end">13.9%</text>
+      <text x="490" y="124" class="pc" text-anchor="end">14.0%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.37s" fill="freeze"/>
