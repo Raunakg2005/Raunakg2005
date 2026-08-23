@@ -34,7 +34,7 @@
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.00s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.00s" fill="freeze"/>
     </rect>
-    <rect x="206.7" y="74" width="69.6" height="16" fill="#3572A5">
+    <rect x="206.7" y="74" width="69.7" height="16" fill="#3572A5">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.07s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.07s" fill="freeze"/>
     </rect>
@@ -58,7 +58,7 @@
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.42s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.42s" fill="freeze"/>
     </rect>
-    <rect x="415.8" y="74" width="13.8" height="16" fill="#563D7C">
+    <rect x="415.9" y="74" width="13.8" height="16" fill="#563D7C">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.49s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.49s" fill="freeze"/>
     </rect>
