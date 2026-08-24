@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 863 223"
      width="863" height="223" role="img"
-     aria-label="908 contributions in the last year">
-  <title>908 contributions in the last year</title>
+     aria-label="914 contributions in the last year">
+  <title>914 contributions in the last year</title>
   <defs>
     <linearGradient id="gbg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b28"/>
@@ -25,7 +25,7 @@
         stroke="url(#gac)" stroke-opacity="0.4" stroke-width="2"/>
 
   <text x="22" y="32" class="ttl">◈ Contribution Calendar</text>
-  <text x="841" y="32" class="sub" text-anchor="end">908 in the last year</text>
+  <text x="841" y="32" class="sub" text-anchor="end">914 in the last year</text>
 
   <text x="76" y="52" class="mo">Sep</text>
   <text x="136" y="52" class="mo">Oct</text>
@@ -44,7 +44,6 @@
   <text x="20" y="102" class="dy">W</text>
   <text x="20" y="132" class="dy">F</text>
 
-  <rect x="46" y="62" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.000s" fill="freeze"/><title>0 on 2025-08-24</title></rect>
   <rect x="46" y="77" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.002s" fill="freeze"/><title>1 on 2025-08-25</title></rect>
   <rect x="46" y="92" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.003s" fill="freeze"/><title>0 on 2025-08-26</title></rect>
   <rect x="46" y="107" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.005s" fill="freeze"/><title>0 on 2025-08-27</title></rect>
@@ -408,7 +407,8 @@
   <rect x="811" y="122" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.578s" fill="freeze"/><title>4 on 2026-08-20</title></rect>
   <rect x="811" y="137" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.579s" fill="freeze"/><title>4 on 2026-08-21</title></rect>
   <rect x="811" y="152" width="12" height="12" rx="2.6" fill="#7EE7C7" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.581s" fill="freeze"/><title>88 on 2026-08-22</title></rect>
-  <rect x="826" y="62" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.582s" fill="freeze"/><title>0 on 2026-08-23</title></rect>
+  <rect x="826" y="62" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.582s" fill="freeze"/><title>6 on 2026-08-23</title></rect>
+  <rect x="826" y="77" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.584s" fill="freeze"/><title>0 on 2026-08-24</title></rect>
 
   <text x="685" y="203" class="lg">Less</text>
   <rect x="719" y="193" width="12" height="12" rx="2.6" fill="#1b2130"/>
