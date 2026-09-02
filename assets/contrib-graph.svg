@@ -44,7 +44,6 @@
   <text x="20" y="102" class="dy">W</text>
   <text x="20" y="132" class="dy">F</text>
 
-  <rect x="46" y="92" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.003s" fill="freeze"/><title>0 on 2025-09-02</title></rect>
   <rect x="46" y="107" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.005s" fill="freeze"/><title>0 on 2025-09-03</title></rect>
   <rect x="46" y="122" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.006s" fill="freeze"/><title>0 on 2025-09-04</title></rect>
   <rect x="46" y="137" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.008s" fill="freeze"/><title>0 on 2025-09-05</title></rect>
@@ -409,6 +408,7 @@
   <rect x="826" y="62" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.582s" fill="freeze"/><title>18 on 2026-08-30</title></rect>
   <rect x="826" y="77" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.584s" fill="freeze"/><title>0 on 2026-08-31</title></rect>
   <rect x="826" y="92" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.586s" fill="freeze"/><title>5 on 2026-09-01</title></rect>
+  <rect x="826" y="107" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.587s" fill="freeze"/><title>0 on 2026-09-02</title></rect>
 
   <text x="685" y="203" class="lg">Less</text>
   <rect x="719" y="193" width="12" height="12" rx="2.6" fill="#1b2130"/>
