@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" width="520" height="300"
-     role="img" aria-label="Language mix across 64 public repositories">
-  <title>Language mix — 64 public repos, 33 languages</title>
+     role="img" aria-label="Language mix across 65 public repositories">
+  <title>Language mix — 65 public repos, 33 languages</title>
   <defs>
     <linearGradient id="lbg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b28"/>
@@ -28,41 +28,41 @@
         stroke="url(#lac)" stroke-opacity="0.4" stroke-width="2"/>
 
   <text x="22" y="34" class="ttl">◈ Language Mix</text>
-  <text x="22" y="56" class="pc">64 public repos · each weighted equally</text>
+  <text x="22" y="56" class="pc">65 public repos · each weighted equally</text>
 
-    <rect x="22.0" y="74" width="169.5" height="16" rx="4" fill="#3178C6">
+    <rect x="22.0" y="74" width="166.9" height="16" rx="4" fill="#3178C6">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.00s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.00s" fill="freeze"/>
     </rect>
-    <rect x="191.5" y="74" width="60.3" height="16" fill="#3572A5">
+    <rect x="188.9" y="74" width="60.3" height="16" fill="#3572A5">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.07s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.07s" fill="freeze"/>
     </rect>
-    <rect x="251.8" y="74" width="45.4" height="16" fill="#F1E05A">
+    <rect x="249.2" y="74" width="44.7" height="16" fill="#F1E05A">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.14s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.14s" fill="freeze"/>
     </rect>
-    <rect x="297.2" y="74" width="44.7" height="16" fill="#F05138">
+    <rect x="293.8" y="74" width="44.0" height="16" fill="#F05138">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.21s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.21s" fill="freeze"/>
     </rect>
-    <rect x="341.9" y="74" width="23.1" height="16" fill="#178600">
+    <rect x="337.8" y="74" width="22.7" height="16" fill="#178600">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.28s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.28s" fill="freeze"/>
     </rect>
-    <rect x="364.9" y="74" width="16.9" height="16" fill="#E34C26">
+    <rect x="360.5" y="74" width="22.2" height="16" fill="#E34C26">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.35s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.35s" fill="freeze"/>
     </rect>
-    <rect x="381.8" y="74" width="12.8" height="16" fill="#222C37">
+    <rect x="382.8" y="74" width="12.6" height="16" fill="#222C37">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.42s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.42s" fill="freeze"/>
     </rect>
-    <rect x="394.6" y="74" width="12.2" height="16" fill="#563D7C">
+    <rect x="395.4" y="74" width="12.0" height="16" fill="#563D7C">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.49s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.49s" fill="freeze"/>
     </rect>
-    <rect x="406.8" y="74" width="91.2" height="16" rx="4" fill="#8B949E">
+    <rect x="407.4" y="74" width="90.6" height="16" rx="4" fill="#8B949E">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.56s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.56s" fill="freeze"/>
     </rect>
@@ -71,7 +71,7 @@
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.25s" fill="freeze"/>
       <circle cx="27" cy="120" r="5.5" fill="#3178C6"/>
       <text x="40" y="124" class="lg">TypeScript</text>
-      <text x="240" y="124" class="pc" text-anchor="end">35.6%</text>
+      <text x="240" y="124" class="pc" text-anchor="end">35.1%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.31s" fill="freeze"/>
@@ -83,13 +83,13 @@
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.37s" fill="freeze"/>
       <circle cx="27" cy="146" r="5.5" fill="#F1E05A"/>
       <text x="40" y="150" class="lg">JavaScript</text>
-      <text x="240" y="150" class="pc" text-anchor="end">9.5%</text>
+      <text x="240" y="150" class="pc" text-anchor="end">9.4%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.43s" fill="freeze"/>
       <circle cx="277" cy="146" r="5.5" fill="#F05138"/>
       <text x="290" y="150" class="lg">Swift</text>
-      <text x="490" y="150" class="pc" text-anchor="end">9.4%</text>
+      <text x="490" y="150" class="pc" text-anchor="end">9.2%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.49s" fill="freeze"/>
@@ -101,30 +101,30 @@
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.55s" fill="freeze"/>
       <circle cx="277" cy="172" r="5.5" fill="#E34C26"/>
       <text x="290" y="176" class="lg">HTML</text>
-      <text x="490" y="176" class="pc" text-anchor="end">3.5%</text>
+      <text x="490" y="176" class="pc" text-anchor="end">4.7%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.61s" fill="freeze"/>
       <circle cx="27" cy="198" r="5.5" fill="#222C37"/>
       <text x="40" y="202" class="lg">ShaderLab</text>
-      <text x="240" y="202" class="pc" text-anchor="end">2.7%</text>
+      <text x="240" y="202" class="pc" text-anchor="end">2.6%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.67s" fill="freeze"/>
       <circle cx="277" cy="198" r="5.5" fill="#563D7C"/>
       <text x="290" y="202" class="lg">CSS</text>
-      <text x="490" y="202" class="pc" text-anchor="end">2.6%</text>
+      <text x="490" y="202" class="pc" text-anchor="end">2.5%</text>
     </g>
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.45s" begin="0.73s" fill="freeze"/>
       <circle cx="27" cy="224" r="5.5" fill="#8B949E"/>
       <text x="40" y="228" class="lg">Other</text>
-      <text x="240" y="228" class="pc" text-anchor="end">19.2%</text>
+      <text x="240" y="228" class="pc" text-anchor="end">19.0%</text>
     </g>
 
   <line x1="22" y1="236" x2="498" y2="236" stroke="#30363D" stroke-width="1"/>
   <g>
-    <text x="60"  y="266" class="kv" text-anchor="middle">64</text>
+    <text x="60"  y="266" class="kv" text-anchor="middle">65</text>
     <text x="60"  y="282" class="kl" text-anchor="middle">REPOS</text>
     <text x="200" y="266" class="kv" text-anchor="middle">33</text>
     <text x="200" y="282" class="kl" text-anchor="middle">LANGUAGES</text>
