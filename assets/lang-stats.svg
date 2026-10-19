@@ -38,11 +38,11 @@
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.07s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.07s" fill="freeze"/>
     </rect>
-    <rect x="244.8" y="74" width="59.3" height="16" fill="#3572A5">
+    <rect x="244.7" y="74" width="59.3" height="16" fill="#3572A5">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.14s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.14s" fill="freeze"/>
     </rect>
-    <rect x="304.1" y="74" width="46.1" height="16" fill="#F1E05A">
+    <rect x="304.0" y="74" width="46.2" height="16" fill="#F1E05A">
       <animate attributeName="height" values="0;16" dur="0.7s" begin="0.21s" fill="freeze"/>
       <animate attributeName="y" values="90;74" dur="0.7s" begin="0.21s" fill="freeze"/>
     </rect>
