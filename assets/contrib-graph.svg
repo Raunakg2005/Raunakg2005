@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 863 223"
      width="863" height="223" role="img"
-     aria-label="1723 contributions in the last year">
-  <title>1723 contributions in the last year</title>
+     aria-label="1793 contributions in the last year">
+  <title>1793 contributions in the last year</title>
   <defs>
     <linearGradient id="gbg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b28"/>
@@ -25,7 +25,7 @@
         stroke="url(#gac)" stroke-opacity="0.4" stroke-width="2"/>
 
   <text x="22" y="32" class="ttl">◈ Contribution Calendar</text>
-  <text x="841" y="32" class="sub" text-anchor="end">1723 in the last year</text>
+  <text x="841" y="32" class="sub" text-anchor="end">1793 in the last year</text>
 
   <text x="106" y="52" class="mo">Dec</text>
   <text x="166" y="52" class="mo">Jan</text>
@@ -44,7 +44,6 @@
   <text x="20" y="102" class="dy">W</text>
   <text x="20" y="132" class="dy">F</text>
 
-  <rect x="46" y="77" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.002s" fill="freeze"/><title>0 on 2025-11-10</title></rect>
   <rect x="46" y="92" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.003s" fill="freeze"/><title>0 on 2025-11-11</title></rect>
   <rect x="46" y="107" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.005s" fill="freeze"/><title>0 on 2025-11-12</title></rect>
   <rect x="46" y="122" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.006s" fill="freeze"/><title>0 on 2025-11-13</title></rect>
@@ -64,14 +63,14 @@
   <rect x="76" y="122" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.029s" fill="freeze"/><title>4 on 2025-11-27</title></rect>
   <rect x="76" y="137" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.030s" fill="freeze"/><title>6 on 2025-11-28</title></rect>
   <rect x="76" y="152" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.032s" fill="freeze"/><title>4 on 2025-11-29</title></rect>
-  <rect x="91" y="62" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.034s" fill="freeze"/><title>25 on 2025-11-30</title></rect>
+  <rect x="91" y="62" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.034s" fill="freeze"/><title>25 on 2025-11-30</title></rect>
   <rect x="91" y="77" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.035s" fill="freeze"/><title>3 on 2025-12-01</title></rect>
   <rect x="91" y="92" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.037s" fill="freeze"/><title>2 on 2025-12-02</title></rect>
   <rect x="91" y="107" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.038s" fill="freeze"/><title>8 on 2025-12-03</title></rect>
   <rect x="91" y="122" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.040s" fill="freeze"/><title>2 on 2025-12-04</title></rect>
   <rect x="91" y="137" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.042s" fill="freeze"/><title>4 on 2025-12-05</title></rect>
   <rect x="91" y="152" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.043s" fill="freeze"/><title>2 on 2025-12-06</title></rect>
-  <rect x="106" y="62" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.045s" fill="freeze"/><title>27 on 2025-12-07</title></rect>
+  <rect x="106" y="62" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.045s" fill="freeze"/><title>27 on 2025-12-07</title></rect>
   <rect x="106" y="77" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.046s" fill="freeze"/><title>2 on 2025-12-08</title></rect>
   <rect x="106" y="92" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.048s" fill="freeze"/><title>4 on 2025-12-09</title></rect>
   <rect x="106" y="107" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.050s" fill="freeze"/><title>7 on 2025-12-10</title></rect>
@@ -301,7 +300,7 @@
   <rect x="586" y="107" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.408s" fill="freeze"/><title>4 on 2026-07-22</title></rect>
   <rect x="586" y="122" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.410s" fill="freeze"/><title>6 on 2026-07-23</title></rect>
   <rect x="586" y="137" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.411s" fill="freeze"/><title>17 on 2026-07-24</title></rect>
-  <rect x="586" y="152" width="12" height="12" rx="2.6" fill="#7EE7C7" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.413s" fill="freeze"/><title>75 on 2026-07-25</title></rect>
+  <rect x="586" y="152" width="12" height="12" rx="2.6" fill="#2ea97a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.413s" fill="freeze"/><title>75 on 2026-07-25</title></rect>
   <rect x="601" y="62" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.414s" fill="freeze"/><title>4 on 2026-07-26</title></rect>
   <rect x="601" y="77" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.416s" fill="freeze"/><title>11 on 2026-07-27</title></rect>
   <rect x="601" y="92" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.418s" fill="freeze"/><title>0 on 2026-07-28</title></rect>
@@ -318,8 +317,8 @@
   <rect x="616" y="152" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.435s" fill="freeze"/><title>22 on 2026-08-08</title></rect>
   <rect x="631" y="62" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.437s" fill="freeze"/><title>13 on 2026-08-09</title></rect>
   <rect x="631" y="77" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.438s" fill="freeze"/><title>22 on 2026-08-10</title></rect>
-  <rect x="631" y="92" width="12" height="12" rx="2.6" fill="#2ea97a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.440s" fill="freeze"/><title>58 on 2026-08-11</title></rect>
-  <rect x="631" y="107" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.442s" fill="freeze"/><title>28 on 2026-08-12</title></rect>
+  <rect x="631" y="92" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.440s" fill="freeze"/><title>58 on 2026-08-11</title></rect>
+  <rect x="631" y="107" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.442s" fill="freeze"/><title>28 on 2026-08-12</title></rect>
   <rect x="631" y="122" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.443s" fill="freeze"/><title>4 on 2026-08-13</title></rect>
   <rect x="631" y="137" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.445s" fill="freeze"/><title>2 on 2026-08-14</title></rect>
   <rect x="631" y="152" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.446s" fill="freeze"/><title>5 on 2026-08-15</title></rect>
@@ -329,7 +328,7 @@
   <rect x="646" y="107" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.453s" fill="freeze"/><title>3 on 2026-08-19</title></rect>
   <rect x="646" y="122" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.454s" fill="freeze"/><title>4 on 2026-08-20</title></rect>
   <rect x="646" y="137" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.456s" fill="freeze"/><title>4 on 2026-08-21</title></rect>
-  <rect x="646" y="152" width="12" height="12" rx="2.6" fill="#7EE7C7" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.458s" fill="freeze"/><title>88 on 2026-08-22</title></rect>
+  <rect x="646" y="152" width="12" height="12" rx="2.6" fill="#2ea97a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.458s" fill="freeze"/><title>88 on 2026-08-22</title></rect>
   <rect x="661" y="62" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.459s" fill="freeze"/><title>6 on 2026-08-23</title></rect>
   <rect x="661" y="77" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.461s" fill="freeze"/><title>5 on 2026-08-24</title></rect>
   <rect x="661" y="92" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.462s" fill="freeze"/><title>7 on 2026-08-25</title></rect>
@@ -344,7 +343,7 @@
   <rect x="676" y="122" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.477s" fill="freeze"/><title>4 on 2026-09-03</title></rect>
   <rect x="676" y="137" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.478s" fill="freeze"/><title>4 on 2026-09-04</title></rect>
   <rect x="676" y="152" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.480s" fill="freeze"/><title>12 on 2026-09-05</title></rect>
-  <rect x="691" y="62" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.482s" fill="freeze"/><title>29 on 2026-09-06</title></rect>
+  <rect x="691" y="62" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.482s" fill="freeze"/><title>29 on 2026-09-06</title></rect>
   <rect x="691" y="77" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.483s" fill="freeze"/><title>0 on 2026-09-07</title></rect>
   <rect x="691" y="92" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.485s" fill="freeze"/><title>0 on 2026-09-08</title></rect>
   <rect x="691" y="107" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.486s" fill="freeze"/><title>0 on 2026-09-09</title></rect>
@@ -377,20 +376,20 @@
   <rect x="751" y="92" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.530s" fill="freeze"/><title>4 on 2026-10-06</title></rect>
   <rect x="751" y="107" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.531s" fill="freeze"/><title>1 on 2026-10-07</title></rect>
   <rect x="751" y="122" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.533s" fill="freeze"/><title>7 on 2026-10-08</title></rect>
-  <rect x="751" y="137" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.534s" fill="freeze"/><title>25 on 2026-10-09</title></rect>
+  <rect x="751" y="137" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.534s" fill="freeze"/><title>25 on 2026-10-09</title></rect>
   <rect x="751" y="152" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.536s" fill="freeze"/><title>4 on 2026-10-10</title></rect>
   <rect x="766" y="62" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.538s" fill="freeze"/><title>0 on 2026-10-11</title></rect>
   <rect x="766" y="77" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.539s" fill="freeze"/><title>8 on 2026-10-12</title></rect>
   <rect x="766" y="92" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.541s" fill="freeze"/><title>43 on 2026-10-13</title></rect>
   <rect x="766" y="107" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.542s" fill="freeze"/><title>10 on 2026-10-14</title></rect>
   <rect x="766" y="122" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.544s" fill="freeze"/><title>18 on 2026-10-15</title></rect>
-  <rect x="766" y="137" width="12" height="12" rx="2.6" fill="#2ea97a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.546s" fill="freeze"/><title>47 on 2026-10-16</title></rect>
+  <rect x="766" y="137" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.546s" fill="freeze"/><title>47 on 2026-10-16</title></rect>
   <rect x="766" y="152" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.547s" fill="freeze"/><title>0 on 2026-10-17</title></rect>
-  <rect x="781" y="62" width="12" height="12" rx="2.6" fill="#2ea97a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.549s" fill="freeze"/><title>57 on 2026-10-18</title></rect>
+  <rect x="781" y="62" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.549s" fill="freeze"/><title>57 on 2026-10-18</title></rect>
   <rect x="781" y="77" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.550s" fill="freeze"/><title>5 on 2026-10-19</title></rect>
   <rect x="781" y="92" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.552s" fill="freeze"/><title>43 on 2026-10-20</title></rect>
-  <rect x="781" y="107" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.554s" fill="freeze"/><title>29 on 2026-10-21</title></rect>
-  <rect x="781" y="122" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.555s" fill="freeze"/><title>23 on 2026-10-22</title></rect>
+  <rect x="781" y="107" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.554s" fill="freeze"/><title>29 on 2026-10-21</title></rect>
+  <rect x="781" y="122" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.555s" fill="freeze"/><title>23 on 2026-10-22</title></rect>
   <rect x="781" y="137" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.557s" fill="freeze"/><title>20 on 2026-10-23</title></rect>
   <rect x="781" y="152" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.558s" fill="freeze"/><title>4 on 2026-10-24</title></rect>
   <rect x="796" y="62" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.560s" fill="freeze"/><title>0 on 2026-10-25</title></rect>
@@ -399,16 +398,17 @@
   <rect x="796" y="107" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.565s" fill="freeze"/><title>1 on 2026-10-28</title></rect>
   <rect x="796" y="122" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.566s" fill="freeze"/><title>0 on 2026-10-29</title></rect>
   <rect x="796" y="137" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.568s" fill="freeze"/><title>3 on 2026-10-30</title></rect>
-  <rect x="796" y="152" width="12" height="12" rx="2.6" fill="#2ea97a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.570s" fill="freeze"/><title>50 on 2026-10-31</title></rect>
+  <rect x="796" y="152" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.570s" fill="freeze"/><title>50 on 2026-10-31</title></rect>
   <rect x="811" y="62" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.571s" fill="freeze"/><title>11 on 2026-11-01</title></rect>
   <rect x="811" y="77" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.573s" fill="freeze"/><title>10 on 2026-11-02</title></rect>
   <rect x="811" y="92" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.574s" fill="freeze"/><title>0 on 2026-11-03</title></rect>
   <rect x="811" y="107" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.576s" fill="freeze"/><title>0 on 2026-11-04</title></rect>
   <rect x="811" y="122" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.578s" fill="freeze"/><title>20 on 2026-11-05</title></rect>
-  <rect x="811" y="137" width="12" height="12" rx="2.6" fill="#2ea97a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.579s" fill="freeze"/><title>62 on 2026-11-06</title></rect>
+  <rect x="811" y="137" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.579s" fill="freeze"/><title>62 on 2026-11-06</title></rect>
   <rect x="811" y="152" width="12" height="12" rx="2.6" fill="#0e4429" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.581s" fill="freeze"/><title>14 on 2026-11-07</title></rect>
-  <rect x="826" y="62" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.582s" fill="freeze"/><title>32 on 2026-11-08</title></rect>
-  <rect x="826" y="77" width="12" height="12" rx="2.6" fill="#2ea97a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.584s" fill="freeze"/><title>62 on 2026-11-09</title></rect>
+  <rect x="826" y="62" width="12" height="12" rx="2.6" fill="#1c7a52" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.582s" fill="freeze"/><title>34 on 2026-11-08</title></rect>
+  <rect x="826" y="77" width="12" height="12" rx="2.6" fill="#7EE7C7" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.584s" fill="freeze"/><title>130 on 2026-11-09</title></rect>
+  <rect x="826" y="92" width="12" height="12" rx="2.6" fill="#1b2130" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.35s" begin="0.586s" fill="freeze"/><title>0 on 2026-11-10</title></rect>
 
   <text x="685" y="203" class="lg">Less</text>
   <rect x="719" y="193" width="12" height="12" rx="2.6" fill="#1b2130"/>
